@@ -1,0 +1,22 @@
+.Champion-Card { 
+    text-align: center;
+    margin: 1vh auto;
+    width: 100%;
+    padding: 5% 10%;
+    border-radius: 1vh;
+    transition: all 250ms ease;
+}
+.Champion-Card p { 
+    text-align: center; 
+    font-size: large;
+    margin: 0;
+}
+.Champion-Card-Image-Champion { 
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+}
+.Cost1 { border: 4px solid #3D4244; }
+.Cost2 { border: 4px solid #1F955B; }
+.Cost3 { border: 4px solid #005583; }
+.Cost4 { border: 4px solid #8C1079; }
+.Cost5 { border: 4px solid #8D6A10 ; }

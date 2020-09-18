@@ -1,0 +1,102 @@
+.Champion-Detail-Container {
+    margin: 5vh 10vh;
+    display: flex;
+    justify-content: center;
+
+    /* align-items: center;  */
+
+    text-align: center;
+    min-height: 80vh;
+    box-shadow: 0px 0px 70px 5px rgba(0,0,0,0.18);
+}
+/* Disable site effects of using Link in champion card */
+.Champion-Detail-Left .Champion-Card { color: black; margin: 1vh auto; padding: 1vh 0; }
+.Champion-Detail-Left .Champion-Card:hover { text-decoration: none; }
+/* // */
+.Champion-Detail-Left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 9px 1px 41px 0px rgba(0,0,0,0.06);
+}
+.Champion-Detail-Left-Stats {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Champion-Detail-Left-Stats p { margin: 0;}
+
+.Champion-Detail-Right {
+    width: 80%;
+}
+.Champion-Detail-Right-Up { 
+    height: max-content;
+    padding: 2vh
+}
+.Champion-Detail-Right-Up .Trait-Description { 
+    display: flex;
+    align-items: center;
+    margin: 2vh;
+}
+.Champion-Detail-Right-Up .Trait-Description p { color: gray; text-align: left;}
+
+.Champion-Detail-Right-Down { 
+    height: max-content;
+    padding: 2vh;
+    /* min-height: 50%; */
+    /* max-height: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Champion-Detail-Right-Down h5 {
+    width: 100%;
+    text-align: left;
+}
+.Champion-Detail-Right-Down-Synergy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 1vh;
+    border-top: 1px solid gray;
+}
+.Champion-Detail-Right-Down-Synergy p:nth-child(1) { width: 100%; text-align: left;}
+
+.Champion-Detail-Right-Down a { 
+    padding: 0vh;
+    margin: 1vh;
+    color: black;
+    min-width: 120px;
+}
+.Champion-Detail-Right-Down a:hover { 
+    text-decoration: none; 
+    background-color: rgb(204, 204, 204);
+}
+.Champion-Detail-Right-Down img { max-height: 7vh; }
+.Champion-Detail-Right-Down p { margin: 0; }
+
+
+@media screen and (max-width: 1400px) { .Champion-Detail-Container { margin: 5vh; } }
+
+@media screen and (max-width: 1000px) { 
+    .Champion-Detail-Container { 
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 5vh 1vh;
+    } 
+    .Champion-Detail-Left {
+        width: auto;
+        padding: 2vh 0vh;
+    }
+    .Champion-Detail-Right {
+        width: 100%;
+    }
+    .Champion-Detail-Right img {
+        max-height: 7vh;
+    }
+    .Champion-Detail-Right-Down a {
+        min-width: 27%;
+    }
+}
+

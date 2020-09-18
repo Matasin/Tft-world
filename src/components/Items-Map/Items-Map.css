@@ -1,0 +1,32 @@
+.Items-Map-Container {
+    display: grid;
+    padding: 2vh 0;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1vh;
+}
+.Items-Map-Item {
+    list-style: none;
+    width: max-content;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.80;
+    transition: all 200ms ease;
+}
+.Items-Map-Item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #9d65c9;
+    opacity: 0;
+    transition: all 200ms ease;
+}
+
+.Items-Map-Item:hover {
+    opacity: 1;
+}
+.Items-Map-Item:hover::before {
+    opacity: 1;
+}
+

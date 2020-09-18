@@ -1,0 +1,22 @@
+.Items-Combined-Map-Whole-Container {
+    padding: 5vh 0;
+}
+.Items-Combined-Map-Whole-Item {
+    list-style: none;
+    width: max-content;
+    cursor: pointer;
+    position: relative;
+    transition: all 200ms ease;
+    width: 50%;
+    margin: 2vh auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Items-Combined-Map-Whole-Item-Components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}

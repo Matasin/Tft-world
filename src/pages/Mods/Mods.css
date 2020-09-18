@@ -1,0 +1,22 @@
+.Mods-List {
+    width: 100%;
+    padding: 1vh 10vh;
+    margin: 5vh auto;
+}
+
+@media (max-width: 900px) and (min-width:320px) {
+    .Mods-List {
+        width: 100%;
+        padding: 0 1vh;
+    }
+    .Mods-List h2{
+        margin-left: 1vh;
+    }
+    .Mods-List .Mods-List-Item li {
+        padding-bottom: 1vh;
+    }
+}
+@media (max-width: 1300px) and (min-width:600px) {
+    .Products { grid-template-columns: 1fr; font-size: large; }
+    .Searching-In-Category { margin: 0; }
+}

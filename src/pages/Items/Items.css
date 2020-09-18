@@ -1,0 +1,140 @@
+.Items-Container {
+    margin: 7vh auto;
+    padding: 1vh 2vh;
+    width: 65%;
+
+    display: flex;
+
+    box-shadow: 0px 0px 60px -6px #bb9bc5;
+    background-color: #eeeeee  ;
+    border-radius: 2vh;
+}
+.Items-Left,
+.Items-Right {
+    padding: 3vh;
+}
+.Items-Left {
+    width: 30%;
+    border-right: thin solid #8d93ab;
+}
+.Items-Left img {
+    max-height: 4vh;
+}
+.Items-Left ul {
+    border-top: thin solid #8d93ab;
+    border-bottom: thin solid #8d93ab;
+}
+.Items-Left-Components input {
+    width: 100%;
+    border: none;
+    border-radius: 0.5vh;
+    padding: 1vh;
+    margin-bottom: 1vh;
+}
+.Items-Right {
+    width: 70%;
+}
+.Items-Right img {
+    max-height: 5vh;
+}
+
+
+
+
+li:hover .Tool-Tip {
+    opacity: 1;
+    visibility: visible;
+}
+li .Tool-Tip {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin: 0 auto;
+    width: max-content;
+    max-width: 20vw;
+    transition: all 300ms ease;
+
+    background-color: #1C2331;
+    color: white;
+    padding: 1vh 2vh;
+    border-radius: 1vh;
+}
+li .Tool-Tip p { margin: 0; }
+li .Tool-Tip:hover {
+    visibility: hidden;
+    opacity: 0;
+}
+.Items-Map-Item {
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .Items-Container {
+        width: 80%;
+    }
+} 
+@media screen and (max-width: 1250px) {
+    .Items-Container {
+        width: 90%;
+    }
+    .Items-Left {
+        width: 35%;
+    }
+    .Items-Right {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .Items-Container {
+        width: 95%;
+    }
+    .Items-Left {
+        width: 40%;
+    }
+    .Items-Right {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Items-Container {
+        width: 100%;
+        margin: 3vh auto;
+        flex-direction: column;
+    }
+    .Items-Left {
+        width: 100%;
+        margin: 0 auto;
+        border-right: 0;
+        border-bottom: thin solid gray;
+    }
+    .Items-Left .Items-Map-Container { 
+        border-bottom: none;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3vh;
+    }
+    .Items-Left img {
+        max-height: 5vh;
+    }
+    .Items-Right {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Items-Left, .Items-Right {
+        padding: 1vh;
+    }
+    .Items-Combined-Map-Component-Container .Items-Combined-Map-Component-Item {
+        width: 100%;
+    }
+    li .Tool-Tip {
+        left: -70%;
+        max-width: 40vw;
+    }
+    .Items-Map-Container .Items-Map-Item:nth-child(4n) .Tool-Tip {
+        left: -230%;
+    }
+    
+}

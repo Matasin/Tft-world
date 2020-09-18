@@ -1,0 +1,25 @@
+.Traits-List {
+    width: 100%;
+    padding: 1vh 10vh;
+    margin: 5vh auto;
+}
+
+@media (max-width: 1100px) {
+    .Traits-List{
+        width: 100%;
+        padding: 1vh 5vh;
+    }
+    .All-Traits-List-Item img {
+        max-height: 9vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .Traits-List{
+        width: 100%;
+        padding: 0 1vh;
+    }
+    .Traits-List h2{
+        margin-left: 1vh;
+    }
+}

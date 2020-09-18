@@ -1,0 +1,32 @@
+.Mods-List-Item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2vh;
+    padding: 2vh;
+    margin: 4vh 0vh;
+    box-shadow: 0 5px 5px -6px #333;
+
+    transition: all 250ms ease;
+}
+.Mods-List-Item img {
+    max-height: 10vh;
+}
+li {
+    list-style: none;
+}
+li p:nth-child(1) {
+    font-weight: 600;
+    margin: 1vh 0;
+}
+li p:nth-child(2) {
+    color: gray;
+}
+
+.Mods-List-Item:hover {
+    cursor: pointer;
+    background-color: #eeeeee ;
+}
+.Mods-List-Item:active {
+    transform: scale(0.98);
+}

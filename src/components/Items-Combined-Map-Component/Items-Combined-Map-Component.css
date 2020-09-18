@@ -1,0 +1,16 @@
+.Items-Combined-Map-Component-Container {
+    padding: 2vh 0;
+}
+.Items-Combined-Map-Component-Item {
+    list-style: none;
+    width: max-content;
+    cursor: pointer;
+    position: relative;
+    transition: all 200ms ease;
+    width: 50%;
+    margin: 2vh auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
