@@ -15,7 +15,6 @@ const ChampionAbility = ({ holder }) => {
     useEffect(() => {
         AblitiyJson.filter(ability => ability.holder === holder && setAbility(ability));
     })
-    console.log(ability)
     return (
         <div className='Champion-Ability'>
             <div className='Champion-Ability-Image-Header'>

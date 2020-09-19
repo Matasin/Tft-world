@@ -22,20 +22,21 @@
     padding: 2vh 0;
 }
 .Champion-Detail-Left-Up-Stats p { margin: 0;}
-.Champion-Detail-Left .Champion-Ability {
+.Champion-Detail-Left-Middle .Champion-Ability {
     margin: 2vh 0;
-    padding: 2vh 0;
+    padding-right: 1vh;
     box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
 }
+
 
 
 .Champion-Detail-Right {
     width: 60%;
 }
-.Champion-Detail-Right-Up { 
+/* .Champion-Detail-Right-Up { 
     height: max-content;
     padding: 2vh
-}
+} */
 .Champion-Detail-Right-Up .Trait-Description, .Champion-Ability { 
     display: flex;
     align-items: center;
