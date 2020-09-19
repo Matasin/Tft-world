@@ -1,4 +1,3 @@
 export const replaceInString = ( string ) => {
-    return string.replace("'", '').replace(/ /g, '').replace('-', '').toLowerCase();
+    return string.replace(/ /g, '');
 };
-// .replace('TFT4_', '').replace('Set4_', '')

@@ -19,7 +19,6 @@ const AllTraitsMap = ({ name, description, innate, type, sets }) => {
                     image={image}
                 />
             </div>
-
         </>
 
     )

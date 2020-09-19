@@ -2,10 +2,9 @@ import React from 'react';
 import './Champion-Card.css'
 
 import { Link } from 'react-router-dom'
-import { replaceInString } from '../../helpers/helpers'
 
 const ChampionCard = ( { cost, name } ) => {
-    const image = replaceInString( name );
+    const image = name.replace(/ /g, '');
     return (
         <Link 
             className='Champion-Card'

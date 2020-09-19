@@ -129,12 +129,16 @@ li .Tool-Tip:hover {
     }
     .Items-Combined-Map-Component-Container .Items-Combined-Map-Component-Item {
         width: 100%;
+        padding: 1vh 0;
     }
     li .Tool-Tip {
         left: -70%;
         max-width: 40vw;
     }
     .Items-Map-Container .Items-Map-Item:nth-child(4n) .Tool-Tip {
+        left: -230%;
+    }
+    .Items-Combined-Map-Component-Item-Block li:nth-last-child(1) .Tool-Tip {
         left: -230%;
     }
     
