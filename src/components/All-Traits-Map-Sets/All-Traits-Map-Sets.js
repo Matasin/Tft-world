@@ -1,11 +1,11 @@
 import React from 'react';
 import './All-Traits-Map-Sets.css'
 
-const AllTraitsMapSets = ({ sets, image}) => {
+const AllTraitsMapSets = ({ sets, image }) => {
     return (
         <div className='All-Traits-List-Item-Sets'>
             <h6>Units: </h6>
-            {sets.map( ({style, max, min}, key) => {
+            {sets.map( ({style, min}, key) => {
                     return (
                         <div 
                             key={ key } 
@@ -20,7 +20,7 @@ const AllTraitsMapSets = ({ sets, image}) => {
                                     }}
                                 />
                                 <img 
-                                    src= {process.env.PUBLIC_URL + `/assets/images/traits/${image}.svg`} 
+                                    src= {process.env.PUBLIC_URL + `/assets/images/traits/${image.toLowerCase()}.svg`} 
                                     alt={image}
                                     onError={e => {
                                         e.target.src = `${process.env.PUBLIC_URL + `/assets/images/traits/${image}.png`}`

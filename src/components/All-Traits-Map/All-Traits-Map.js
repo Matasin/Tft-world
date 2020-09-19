@@ -1,11 +1,10 @@
 import React from 'react';
 import './All-Traits-Map.css'
 
-import { replaceInString } from '../../helpers/helpers'
 import AllTraitsMapSets from '../All-Traits-Map-Sets/All-Traits-Map-Sets'
 
 const AllTraitsMap = ({ name, description, innate, type, sets }) => {
-    const image = replaceInString(name);
+    const image = name;
     return (
         <>
             <div className='All-Traits-List-Item'>

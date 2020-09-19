@@ -2,7 +2,6 @@ import React from 'react';
 import './Trait-Description-Map.css'
 
 import TraitsChampions from '../../context/apiContext/traits.json'
-import { replaceInString } from '../../helpers/helpers'
 
 const TraitDescriptionMap = ( { targetTraits } ) => {
     return (
@@ -14,7 +13,7 @@ const TraitDescriptionMap = ( { targetTraits } ) => {
                             <div className='Trait-Description' key= { key }> 
                                 <div className='Trait-Description-Image-Header'>
                                     <img 
-                                        src= {process.env.PUBLIC_URL + `/assets/images/traits/${replaceInString(name)}.svg`} 
+                                        src= {process.env.PUBLIC_URL + `/assets/images/traits/${name.toLowerCase()}.svg`} 
                                         alt={name}
                                     />
                                     <h6> {name} {`(${type})`} </h6>

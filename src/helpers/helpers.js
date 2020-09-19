@@ -1,3 +1,3 @@
-export const replaceInString = ( string ) => {
-    return string.replace(/ /g, '');
-};
+// export const replaceInString = ( string ) => {
+//     return string.replace(/ /g, '');
+// };
