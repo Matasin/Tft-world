@@ -1,12 +1,9 @@
 .Champion-Detail-Container {
-    margin: 5vh 10vh;
+    margin: 8vh 10vh;
     display: flex;
     justify-content: center;
-
-    /* align-items: center;  */
-
     text-align: center;
-    min-height: 80vh;
+    min-height: 75vh;
     box-shadow: 0px 0px 70px 5px rgba(0,0,0,0.18);
 }
 /* Disable site effects of using Link in champion card */
@@ -14,65 +11,67 @@
 .Champion-Detail-Left .Champion-Card:hover { text-decoration: none; }
 /* // */
 .Champion-Detail-Left {
-    width: 20%;
+    width: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     box-shadow: 9px 1px 41px 0px rgba(0,0,0,0.06);
 }
-.Champion-Detail-Left-Stats {
-    width: 50%;
-    margin: 0 auto;
+.Champion-Detail-Left-Up {
+    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
+    padding: 2vh 0;
+}
+.Champion-Detail-Left-Up-Stats p { margin: 0;}
+.Champion-Detail-Left .Champion-Ability {
+    margin: 2vh 0;
+    padding: 2vh 0;
+    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
 }
 
-.Champion-Detail-Left-Stats p { margin: 0;}
 
 .Champion-Detail-Right {
-    width: 80%;
+    width: 60%;
 }
 .Champion-Detail-Right-Up { 
     height: max-content;
     padding: 2vh
 }
-.Champion-Detail-Right-Up .Trait-Description { 
+.Champion-Detail-Right-Up .Trait-Description, .Champion-Ability { 
     display: flex;
     align-items: center;
     margin: 2vh;
 }
-.Champion-Detail-Right-Up .Trait-Description p { color: gray; text-align: left;}
+.Champion-Detail-Right-Up .Trait-Description, .Champion-Ability p { color: gray; text-align: left;}
 
 .Champion-Detail-Right-Down { 
-    height: max-content;
     padding: 2vh;
-    /* min-height: 50%; */
-    /* max-height: 50%; */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 .Champion-Detail-Right-Down h5 {
     width: 100%;
     text-align: left;
+    margin: 2vh;
 }
 .Champion-Detail-Right-Down-Synergy {
     display: flex;
+    align-items: center;
+    padding-top: 1vh;
+    box-shadow: 0px -1px 1px -1px rgba(0,0,0,0.95);
+}
+.Champion-Detail-Right-Down-Synergy-Trait-Image {
+    width: 10%;
+}
+.Champion-Detail-Right-Down-Synergy-Champion-Card-Container {
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 1vh;
-    border-top: 1px solid gray;
 }
-.Champion-Detail-Right-Down-Synergy p:nth-child(1) { width: 100%; text-align: left;}
 
-.Champion-Detail-Right-Down a { 
+.Champion-Detail-Right-Down .Champion-Card { 
     padding: 0vh;
-    margin: 1vh;
-    color: black;
-    min-width: 120px;
+    margin: 1vh 2vh;
+    min-width: 100px;
 }
-.Champion-Detail-Right-Down a:hover { 
-    text-decoration: none; 
-    background-color: rgb(204, 204, 204);
-}
+
 .Champion-Detail-Right-Down img { max-height: 7vh; }
 .Champion-Detail-Right-Down p { margin: 0; }
 
@@ -86,8 +85,8 @@
         margin: 5vh 1vh;
     } 
     .Champion-Detail-Left {
-        width: auto;
         padding: 2vh 0vh;
+        width: 100%;
     }
     .Champion-Detail-Right {
         width: 100%;
@@ -95,8 +94,8 @@
     .Champion-Detail-Right img {
         max-height: 7vh;
     }
-    .Champion-Detail-Right-Down a {
-        min-width: 27%;
+    .Champion-Detail-Right-Down .Champion-Card { 
+        margin: 0.5vh 0;
     }
 }
 

@@ -10,17 +10,6 @@
     border-radius: 2vh;
     position: relative;
 }
-.Champions-Container .Champion-Card {
-    color: black;
-}
-.Champions-Container .Champion-Card:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #c8c6c6  ;
-}
-.Champions-Container .Champion-Card:active {
-    transform: scale(0.97);
-}
 
 .Champions-Container input {
     position: absolute;
@@ -48,9 +37,6 @@
     .Champions-Container {
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
-    }
-    .Champion-Card {
-        max-width: 100%;
     }
     .Champion-Card img {
         max-height: 7vh;

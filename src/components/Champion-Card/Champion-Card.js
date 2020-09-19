@@ -16,7 +16,7 @@ const ChampionCard = ( { cost, name } ) => {
                     e.target.src = `${ process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}`
                 }}
                 alt= { name }
-                className={`Champion-Card-Image-Champion Cost${cost}`}
+                className={`Cost${cost}`}
             />
             <p>{name}</p>
         </Link>

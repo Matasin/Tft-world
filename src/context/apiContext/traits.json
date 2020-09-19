@@ -465,7 +465,7 @@
   },
   {
     "key": "Boss",
-    "name": "The Boss",
+    "name": "Boss",
     "description": "When The Boss first drops below a percentage of his Health, he leaves combat to start doing sit-ups. Each sit-up restores a percentage of his maximum Health and gives him Attack and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat.",
     "type": "origin",
     "sets": [

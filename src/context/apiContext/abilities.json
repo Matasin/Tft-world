@@ -1,0 +1,350 @@
+[
+    {
+        "holder": "Aatrox",
+        "name": "Infernal Chains",
+        "type": "Active",
+        "description": "The first time a Spirit casts their spell, all allies gain Attack Speed based on the spell's mana cost."
+    },
+    {
+        "holder": "Ahri",
+        "name": "Spirit Bomb",
+        "type": "Active",
+        "description": "Ahri channels, summoning a large ball of spirit energy. After 1.5 seconds, she lobs it at her target dealing magic damage to all enemies within 2 hexes."
+    },
+    {
+        "holder": "Akali",
+        "name": "Five-Point Strike",
+        "type": "Active",
+        "description": "Akali throws kunai at her target, dealing magic damage."
+    },
+    {
+        "holder": "Annie",
+        "name": "Shield-Blast",
+        "type": "Active",
+        "description": "Annie blasts a cone of fire dealing magic damage to enemies in front of her, then creates a shield for herself for a few seconds."
+    },
+    {
+        "holder": "Aphelios",
+        "name": "Sentry Turret",
+        "type": "Active",
+        "description": "Aphelios summons a turret for a few seconds. An extension of his will, the turret counts as Aphelios himself when it fires and deals damage, and dies when he dies."
+    },
+    {
+        "holder": "Ashe",
+        "name": "Hunter's Focus",
+        "type": "Active",
+        "description": "Ashe gains Attack Speed for 5 seconds, and her Basic Attacks fire a flurry of arrows dealing physical damage."
+    },
+    {
+        "holder": "Azir",
+        "name": "Warlord's Divide",
+        "type": "Active",
+        "description": "Azir charges forward with a wall of soldiers, knocking back enemies hit and dealing magic damage. After their charge, the wall of soldiers remains in place in front of Azir for 3 seconds as impassable terrain. Any spearmen from the General trait will accompany Azir for the charge and position themselves to protect him afterwards."
+    },
+    {
+        "holder": "Cassiopeia",
+        "name": "Petrifying Gaze",
+        "type": "Active",
+        "description": "Cassiopeia releases a cone of magic energy towards her target, dealing magic damage to all enemies hit, stunning them for a few seconds, and causing them to take 10% increased damage while stunned."
+    },
+    {
+        "holder": "Diana",
+        "name": "Pale Cascade",
+        "type": "Active",
+        "description": "Diana shields herself for a few seconds and summons orbs to orbit around her. These orbs explode dealing magic damage when they contact an enemy, refreshing her shield when the final one explodes."
+    },
+    {
+        "holder": "Elise",
+        "name": "Spider Form",
+        "type": "Active",
+        "description": "Elise transforms into a spider, gaining bonus maximum health and causing her attacks to restore health."
+    },
+    {
+        "holder": "Evelynn",
+        "name": "Last Caress",
+        "type": "Active",
+        "description": "Evelynn deals magic damage to up to 3 nearby enemies, then teleports away. The damage is increased against targets below 50% health."
+    },
+    {
+        "holder": "Ezreal",
+        "name": "Trueshot Barrage",
+        "type": "Active",
+        "description": "Ezreal fires a barrage toward the enemy with the highest Attack Speed, healing allies it passes through and granting them and 50% attack speed for 5 seconds, while dealing magic damage to enemies and slowing their Attack Speed by 50% for 5 seconds."
+    },
+    {
+        "holder": "Fiora",
+        "name": "Riposte",
+        "type": "Active",
+        "description": "Fiora enters a defensive stance for 1.5 seconds, becoming immune to damage and enemy spell effects. As she exits this stance, she ripostes, dealing magic damage to a nearby enemy and stunning them for a few seconds."
+    },
+    {
+        "holder": "Garen",
+        "name": "Judgment",
+        "type": "Active",
+        "description": "Garen spins his sword for 4 seconds, reducing incoming magic damage by 80% and dealing magic damage to nearby enemies over the duration."
+    },
+    {
+        "holder": "Hecarim",
+        "name": "Spirit of Life",
+        "type": "Active",
+        "description": "Hecarim absorbs health from each adjacent enemy over 2 seconds."
+    },
+    {
+        "holder": "Irelia",
+        "name": "Bladestorm",
+        "type": "Active",
+        "description": "Irelia launches a barrage of blades infront of her, dealing magic damage and applying on-hit effects. Enemies hit are disarmed for a few seconds."
+    },
+    {
+        "holder": "Janna",
+        "name": "Eye of the Storm",
+        "type": "Active",
+        "description": "Janna shields the lowest health allies for 4 seconds. Shielded allies gain Attack Damage for the duration."
+    },
+    {
+        "holder": "Jarvan IV",
+        "name": "Dragon Strike",
+        "type": "Active",
+        "description": "Jarvan strikes the furthest target within 3 hexes with his spear and pulls himself towards them, dealing magic damage to units he passes through and knocking them up and stunning them for 2 seconds."
+    },
+    {
+        "holder": "Jax",
+        "name": "Counter Strike",
+        "type": "Active",
+        "description": "Jax dodges all incoming attacks for 2 seconds, then strikes all nearby units, dealing magic damage and stunning them for 1.5 seconds."
+    },
+    {
+        "holder": "Jhin",
+        "name": "Whisper",
+        "type": "Passive",
+        "description": "Passive: Jhin converts each 1% of bonus attack speed he has into 0.8 attack damage. Every fourth shot, Jhin deals bonus damage."
+    },
+    {
+        "holder": "Jinx",
+        "name": "Fishbones",
+        "type": "Active",
+        "description": "Jinx's next attack fires a rocket, stunning her target for 1.5 seconds and dealing magic damage to her target and all adjacent enemies."
+    },
+    {
+        "holder": "Kalista",
+        "name": "Rend",
+        "type": "Passive",
+        "description": "Passive: Kalista's spears remain in her target, each one capable of dealing a percent of the target's max health as magic damage when she removes them. Kalista will remove the spears when doing so would kill the target."
+    },
+    {
+        "holder": "Katarina",
+        "name": "Death Lotus",
+        "type": "Active",
+        "description": "Katarina channels for 2.5 seconds, throwing knives at nearby enemies, dealing magic damage over the duration and reducing healing by 50% to her targets for 5 seconds."
+    },
+    {
+        "holder": "Kayn",
+        "name": "Reaper",
+        "type": "Active",
+        "description": "Kayn dashes toward his target then slashes all adjacent enemies, dealing magic damage and increasing the cost of their next spell by 33%. If the slash hits exactly one target, Kayn immediately casts again. As Rhaast: Reaping Slash heals Kayn for 50% of the damage it deals. As Shadow Assassin: Reaping Slash deals an extra 75% damage for the first 10 seconds of combat."
+    },
+    {
+        "holder": "Kennen",
+        "name": "Slicing Maelstrom",
+        "type": "Active",
+        "description": "Kennen summons a storm around him, dealing magic damage over 3 seconds and stunning enemies inside of it for 1.5 seconds."
+    },
+    {
+        "holder": "Kindred",
+        "name": "Dance of Dread",
+        "type": "Active",
+        "description": "Wolf mauls Kindred's target, dealing magic damage and reducing healing by 50% to her target for 5 seconds, while Lamb leaps away from Kindred's target."
+    },
+    {
+        "holder": "Lee Sin",
+        "name": "God Fist",
+        "type": "Active",
+        "description": "Lee Sin punches his target, dealing magic damage, knocking them back to the edge of the battlefield, and stunning them for a few seconds. Any enemies the target collides with during the knockback receive half the damage and stunned for 1.5 seconds. If the target cannot be pushed back any further, they are knocked out of the battlefield instead, removing them from combat. If the target is still alive, Lee Sin will dash to them."
+    },
+    {
+        "holder": "Lillia",
+        "name": "Lilting Lullaby",
+        "type": "Active",
+        "description": "Lillia casts a magical lullaby, causing waking enemies with the highest current health to fall asleep for 3.5 seconds. Enemies will awaken if they take damage while sleeping, causing an additional magic damage."
+    },
+    {
+        "holder": "Lissandra",
+        "name": "1000 Daggers",
+        "type": "Active",
+        "description": "Lissandra hurls a dagger at her target's location, exploding into many daggers on contact with an enemy or when it reaches its destination. The initial dagger deals magic damage, and all enemies hit by the dagger explosion are dealt magic damage."
+    },
+    {
+        "holder": "Lulu",
+        "name": "Wild Growth",
+        "type": "Active",
+        "description": "Lulu makes a low health ally giant, granting them bonus health and knocking up adjacent enemies near them for 1.5 seconds."
+    },
+    {
+        "holder": "Lux",
+        "name": "Light Binding",
+        "type": "Active",
+        "description": "Lux fires a sphere of darkness towards the farthest enemy. Enemies in its path take magic damage and are stunned for a few seconds."
+    },
+    {
+        "holder": "Maokai",
+        "name": "Bramble Smash",
+        "type": "Active",
+        "description": "Maokai smashes enemies infront of him, dealing magic damage and slowing their Attack Speed by 50% for 3 seconds."
+    },
+    {
+        "holder": "Morgana",
+        "name": "Hallowed Ground",
+        "type": "Active",
+        "description": "Morgana hallows the ground beneath her target, dealing magic damage to enemies within over 5 seconds and shredding 40% of their Magic Resistance while they remain inside. Morgana restores a percentage of the damage done."
+    },
+    {
+        "holder": "Nami",
+        "name": "Aqua Prison",
+        "type": "Active",
+        "description": "Nami traps the closest enemy in a bubble, dealing magic damage and stunning them for a few seconds."
+    },
+    {
+        "holder": "Nidalee",
+        "name": "Javelin Toss",
+        "type": "Active",
+        "description": "Nidalee throws her Javelin at the furthest enemy, dealing magic damage plus 10% per hex traveled."
+    },
+    {
+        "holder": "Nunu",
+        "name": "Consume",
+        "type": "Active",
+        "description": "Willump bites his target, dealing magic damage. If Willump's target has less Health than him before the bite, it deals an additional 50% damage and deals true damage instead."
+    },
+    {
+        "holder": "Pyke",
+        "name": "Phantom Undertow",
+        "type": "Active",
+        "description": "Pyke dashes behind the furthest enemy, creating an afterimage that deals magic damage and stuns enemies it passes through for a few seconds."
+    },
+    {
+        "holder": "Riven",
+        "name": "Energy Slash",
+        "type": "Active",
+        "description": "Riven dashes and shields herself, then slashes forward dealing magic damage to nearby enemies. Every third cast, Riven leaps into the air and launches forward a large wave of energy that deals magic damage."
+    },
+    {
+        "holder": "Sejuani",
+        "name": "Firecracker",
+        "type": "Active",
+        "description": "Sejuani sets off a giant firecracker. After a short delay, enemies caught within are dealt magic damage and stunned for a few seconds."
+    },
+    {
+        "holder": "Sett",
+        "name": "Showstopper",
+        "type": "Active",
+        "description": "Sett grabs his target and slams them forward, dealing a percent of his target's maximum health in magic damage to all enemies in a large area. Enemies further from the epicenter take less damage."
+    },
+    {
+        "holder": "Shen",
+        "name": "Shadow Dash",
+        "type": "Active",
+        "description": "Shen dashes past his target, shielding himself against damage and taunting all adjacent enemies for 4 seconds."
+    },
+    {
+        "holder": "Sylas",
+        "name": "Chain Lash",
+        "type": "Active",
+        "description": "Sylas lashes his chains out in a 3 hex line, dealing magic damage to enemies hit and increasing the cost of their next spell by 33%."
+    },
+    {
+        "holder": "Tahm Kench",
+        "name": "Thick Skin",
+        "type": "Passive",
+        "description": "Tahm Kench ignores damage from all sources."
+    },
+    {
+        "holder": "Talon",
+        "name": "Truestrike",
+        "type": "Active",
+        "description": "Talon stabs his target, striking them for a percent of his attack damage. If this kills them, Talon becomes unstoppable, untargetable, and invulnerable while he leaps to the enemy who's done the most damage this round and refunds his mana."
+    },
+    {
+        "holder": "Teemo",
+        "name": "Sporecloud Dart",
+        "type": "Active",
+        "description": "Teemo fires a dart at his target that explodes into a cloud of spores on contact, poisoning nearby enemies. Poisoned enemies take magic damage over a few seconds and are blinded for the duration."
+    },
+    {
+        "holder": "Thresh",
+        "name": "Spectral Lantern",
+        "type": "Active",
+        "description": "Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies against damage for 4 seconds."
+    },
+    {
+        "holder": "Twisted Fate",
+        "name": "Wild Cards",
+        "type": "Active",
+        "description": "Twisted Fate throws three cards in a cone that deal magic damage to each enemy they pass through."
+    },
+    {
+        "holder": "Vayne",
+        "name": "Silver Bolts",
+        "type": "Passive",
+        "description": "Passive: Whenever Vayne Basic Attacks the same target 3 times, she deals bonus true damage."
+    },
+    {
+        "holder": "Veigar",
+        "name": "Butterfly Burst",
+        "type": "Active",
+        "description": "Veigar blasts the lowest health enemy with a burst of energy, dealing magic damage. If this kills the target, Veigar permanently gains spell power."
+    },
+    {
+        "holder": "Vi",
+        "name": "Denting Blow",
+        "type": "Active",
+        "description": "Vi's attack blasts through her target, dealing magic damage to all enemies in a cone and reducing their armor for 6 seconds."
+    },
+    {
+        "holder": "Warwick",
+        "name": "Primal Hunger",
+        "type": "Active",
+        "description": "Warwick gains Attack Speed, Lifesteal, and moves faster for the rest of combat. While in this state, if Warwick scores a takedown he howls, fearing all adjacent enemies for a few seconds."
+    },
+    {
+        "holder": "Wukong",
+        "name": "Crushing Blow",
+        "type": "Active",
+        "description": "Wukong slams his target with his staff, dealing a percent of his Attack Damage as physical damage and stunning them for a few seconds."
+    },
+    {
+        "holder": "Xin Zhao",
+        "name": "Crescent Guard",
+        "type": "Active",
+        "description": "Xin Zhao sweeps around him, dealing a percent of his Attack Damage and Challenging enemies hit for 6 seconds. While an enemy is Challenged, Xin Zhao deals increased Basic Attack damage to them, and takes 85% reduced damage from all other sources."
+    },
+    {
+        "holder": "Yasuo",
+        "name": "Striking Steel",
+        "type": "Active",
+        "description": "Yasuo strikes forward two hexes, dealing a percent of his Attack Damage as physical damage and applying on-hit effects."
+    },
+    {
+        "holder": "Yone",
+        "name": "Seal Fate",
+        "type": "Active",
+        "description": "Yone strikes along a path in front of him, dealing magic damage split between all enemies hit and knocking them up for 1.5 seconds. Enemies hit are marked for death, reducing their Armor and Magic Resist by 60%. Yone's spell is then replaced with Unforgotten until there are no remaining enemies marked for death. Unforgotten (20 mana): Yone dashes to the lowest health enemy that is marked for death, killing them instantly."
+    },
+    {
+        "holder": "Yuumi",
+        "name": "Zoomies",
+        "type": "Active",
+        "description": "Yuumi dashes next to a low health ally, healing them for a percent of their missing health and granting them attack speed for 5 seconds. She then repeats this for the furthest ally."
+    },
+    {
+        "holder": "Zed",
+        "name": "Contempt for the Weak",
+        "type": "Passive",
+        "description": "Passive: Every third attack, Zed deals bonus magic damage and steals a percent of the target's current Attack Damage."
+    },
+    {
+        "holder": "Zilean",
+        "name": "Rewind Fate",
+        "type": "Active",
+        "description": "Zilean places a protective Time Rune on the 2 allies with the lowest Health. When they would die, they instead resurrect after 3.5 seconds, returning to combat with some health and shredding all negative effects. After resurrecting, they have 50% bonus Attack Speed for the rest of combat."
+    }
+]
