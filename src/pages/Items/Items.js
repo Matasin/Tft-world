@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Items.css'
 
 import ItemsJson from '../../context/apiContext/items.json'
+
 import ItemsMap from '../../components/Items-Map/Items-Map'
 import ItemsCombinedMapComponent from '../../components/Items-Combined-Map-Component/Items-Combined-Map-Component'
 import ItemsCombinedMapWhole from '../../components/Items-Combined-Map-Whole/Items-Combined-Map-Whole'

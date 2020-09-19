@@ -1,7 +1,7 @@
 .Champion-Card { 
     text-align: center;
     margin: 1vh auto;
-    width: 100%;
+    width: max-content;
     padding: 5% 10%;
     border-radius: 1vh;
     transition: all 250ms ease;

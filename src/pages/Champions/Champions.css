@@ -49,6 +49,9 @@
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
     }
+    .Champion-Card {
+        max-width: 100%;
+    }
     .Champion-Card img {
         max-height: 7vh;
     }

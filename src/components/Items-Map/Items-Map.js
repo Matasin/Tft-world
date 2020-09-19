@@ -1,6 +1,8 @@
 import React from 'react'
 import './Items-Map.css'
 
+import ItemCard from '../Item-Card/Item-Card';
+
 const ItemsMap = ({ items, scope, setItemID }) => {
     return (
         <ul className='Items-Map-Container'>
@@ -14,17 +16,10 @@ const ItemsMap = ({ items, scope, setItemID }) => {
                         onClick= { () => setItemID(id) }
                         className='Items-Map-Item'
                     >
-                        <div className='Tool-Tip'>
-                            <p> { name } </p>
-                            <p> { stats } </p>
-                            <p> { description } </p>
-                        </div>
-                        <img 
-                            src= { process.env.PUBLIC_URL + `/assets/images/items/${image}.webp`} 
-                            onError={e => {
-                                e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${image}.png`}`
-                            }}
-                            alt= { name }
+                        <ItemCard
+                            image= {image}
+                            imageOnError= {image}
+                            itemId= {id}
                         />
                     </li>
                 )

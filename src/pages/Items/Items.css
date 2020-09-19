@@ -63,6 +63,7 @@ li .Tool-Tip {
     border-radius: 1vh;
 }
 li .Tool-Tip p { margin: 0; }
+li .Tool-Tip p:nth-child(1) { font-weight: bold; }
 li .Tool-Tip:hover {
     visibility: hidden;
     opacity: 0;
