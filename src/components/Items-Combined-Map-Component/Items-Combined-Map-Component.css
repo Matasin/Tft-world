@@ -12,7 +12,6 @@
     cursor: pointer;
     position: relative;
     transition: all 200ms ease;
-    width: 50%;
     margin: 2vh auto;
 
     display: flex;

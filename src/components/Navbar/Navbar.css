@@ -108,9 +108,8 @@
         margin-top: 5vh;
     }
     .Navbar-Items-Container .Navbar-Item:nth-last-child(1) {
-        margin-bottom: 10vh;
+        margin-bottom: 15vh;
     }
-
 } 
 .Navbar-Active {
     transform: translateX(0%);
