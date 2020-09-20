@@ -1,18 +1,20 @@
 .Champion-Card { 
     text-align: center;
-    margin: 1vh auto;
+    margin: 0 auto;
     width: max-content;
-    padding: 5% 10%;
+    padding: 1vh;
     border-radius: 1vh;
     transition: all 250ms ease;
     color: black;
+    position: relative;
 }
 .Champion-Card img {
-    border-radius: 1vh;
-    margin-bottom: 1vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 20px -6px rgba(0,0,0,0.75);
+    transition: all 250ms ease;
+    opacity: 0.9;
 }
 .Champion-Card p { 
-    text-align: center; 
     font-size: large;
     margin: 0 auto;
     max-width: 80px;
@@ -26,4 +28,73 @@
 .Champion-Card:hover {
     color: black;
     text-decoration: none;
+}
+.Champion-Card img:hover {
+    opacity: 1;
+    border: 4px solid rgb(207, 65, 65);
+}
+/* ToolTip */
+.Champion-Card:hover .Tool-Tip {
+    opacity: 1;
+    visibility: visible;
+}
+.Champion-Card .Tool-Tip {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin: 0 auto;
+    transition: all 300ms ease;
+
+    background-color: #1C2331;
+    color: white;
+    padding-top: 1vh;
+    border-radius: 2vh 4vh;
+}
+.Champion-Card .Tool-Tip__Up,
+.Champion-Card .Tool-Tip__Down {
+    display: flex;
+    align-items: center;
+    padding: 0 1vh;
+    border-radius: 2vh 4vh;
+    background-color: #24314e;
+}
+.Champion-Card .Tool-Tip__Champion {
+    margin: 0 1vh 0 0;
+}
+.Champion-Card .Tool-Tip__Champion img {
+    max-height: 6vh;
+}
+
+.Champion-Card .Tool-Tip__Traits .Trait-Card p {
+    margin: 0 0.5vh;
+} 
+.Champion-Card .Tool-Tip__Traits p {
+    font-size: small;
+}
+.Champion-Card .Tool-Tip__Traits img { 
+    filter: invert(0.5);
+    max-height: 3vh;
+    max-width: 3vh;
+}
+
+.Champion-Card .Tool-Tip__Cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1vh;
+}
+.Champion-Card .Tool-Tip__Cost img {
+    max-height: 1vh;
+}
+
+.Champion-Card .Tool-Tip__Items p{
+    font-size: medium;
+}
+
+.Champion-Card .Tool-Tip:hover {
+    visibility: hidden;
+    opacity: 0;
 }

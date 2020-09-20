@@ -210,7 +210,7 @@
         "description": "Nidalee throws her Javelin at the furthest enemy, dealing magic damage plus 10% per hex traveled."
     },
     {
-        "holder": "Nunu",
+        "holder": "Nunu & Willump",
         "name": "Consume",
         "type": "Active",
         "description": "Willump bites his target, dealing magic damage. If Willump's target has less Health than him before the bite, it deals an additional 50% damage and deals true damage instead."

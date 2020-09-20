@@ -6,7 +6,7 @@ const SynergyMap = ({ JsonChampions, targetName, targetTrait }) => {
         <div className='Champion-Detail-Right-Down-Synergy'>
             <div className='Champion-Detail-Right-Down-Synergy-Trait-Image'>
                 <img
-                    src={process.env.PUBLIC_URL + `/assets/images/traits/${targetTrait}.svg`}
+                    src={process.env.PUBLIC_URL + `/assets/images/traits/${targetTrait.toLowerCase()}.svg`}
                     alt={targetTrait}
                 />
             </div>

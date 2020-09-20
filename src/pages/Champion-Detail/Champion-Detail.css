@@ -42,7 +42,9 @@
     align-items: center;
     margin: 2vh;
 }
-.Champion-Detail-Right-Up .Trait-Description, .Champion-Ability p { color: gray; text-align: left;}
+.Champion-Detail-Right-Up .Trait-Description, .Champion-Ability p { 
+    color: gray; text-align: left;
+}
 
 .Champion-Detail-Right-Down { 
     padding: 2vh;
@@ -74,7 +76,7 @@
 }
 
 .Champion-Detail-Right-Down img { max-height: 7vh; }
-.Champion-Detail-Right-Down p { margin: 0; }
+/* .Champion-Detail-Right-Down p { margin: 0; } */
 
 
 @media screen and (max-width: 1400px) { .Champion-Detail-Container { margin: 5vh; } }
