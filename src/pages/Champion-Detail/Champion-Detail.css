@@ -79,7 +79,19 @@
 /* .Champion-Detail-Right-Down p { margin: 0; } */
 
 
-@media screen and (max-width: 1400px) { .Champion-Detail-Container { margin: 5vh; } }
+@media screen and (max-width: 1400px) { 
+    .Champion-Detail-Container { 
+        margin: 5vh; 
+    }
+    .Champion-Detail-Container .Champion-Card:nth-child(4n) .Tool-Tip {
+        left: -30%;
+    }
+}
+@media screen and (max-width: 1100px) { 
+    .Champion-Detail-Container .Champion-Card:nth-child(3n) .Tool-Tip {
+        left: -50%;
+    }
+}
 
 @media screen and (max-width: 1000px) { 
     .Champion-Detail-Container { 
@@ -99,6 +111,12 @@
     }
     .Champion-Detail-Right-Down .Champion-Card { 
         margin: 0.5vh 0;
+    }
+    .Champion-Detail-Container .Champion-Card .Tool-Tip {
+        left: -35%;
+    }
+    .Champion-Detail-Container .Champion-Card:nth-child(3n) .Tool-Tip {
+        left: -100%;
     }
 }
 

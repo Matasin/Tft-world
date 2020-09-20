@@ -1,10 +1,8 @@
 .Champions-Container {
-    margin: 7vh auto;
+    margin: 10vh auto;
     padding: 1vh 2vh;
-    width: 70%;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-
+    width: 60%;
+    
     box-shadow: 0px 0px 60px -6px #bb9bc5;
     background-color: #eeeeee  ;
     border-radius: 2vh;
@@ -13,7 +11,7 @@
 
 .Champions-Container input {
     position: absolute;
-    top: -6vh;
+    top: -7vh;
     margin: 0 auto;
     border: none;
     border-radius: 1vh;
@@ -21,24 +19,42 @@
 }
 .Champions-Container input:focus { box-shadow: 0px 0px 60px -6px #bb9bc5; }
 
+.Champions-Container__Champions-Cards {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
 @media screen and (max-width: 1500px) {
     .Champions-Container {
-        grid-template-columns: repeat(6, 1fr);
         width: 80%;
+    }
+    .Champions-Container__Champions-Cards {
+        grid-template-columns: repeat(7, 1fr);
     }
 } 
 @media screen and (max-width: 1100px) {
     .Champions-Container {
-        grid-template-columns: repeat(5, 1fr);
         width: 85%;
+    }
+    .Champions-Container__Champions-Cards {
+        grid-template-columns: repeat(6, 1fr);
     }
 } 
 @media screen and (max-width: 900px) {
     .Champions-Container {
-        grid-template-columns: repeat(3, 1fr);
         width: 100%;
     }
-    .Champion-Card img {
+    .Champions-Container__Champions-Cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .Champions-Container__Champions-Cards .Champion-Card img {
         max-height: 7vh;
+    }
+    .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip {
+        left: -25%;
+        max-width: 40vw;
+    }
+    .Champions-Container__Champions-Cards .Champion-Card:nth-child(4n) .Tool-Tip {
+        left: -140%;
     }
 } 

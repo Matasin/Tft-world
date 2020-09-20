@@ -25,20 +25,22 @@ const Champions = () => {
                 value= { searchTerm }
                 onChange= { handleChange }
             />
-            {searchResults.length === 0 ? 
-                <h5 style={{textAlign: 'center'}}>Did not match data</h5> 
-                : 
-                searchResults.map( ({championId, cost, name, traits}) => {
-                    return (
-                        <ChampionCard
-                            key= { championId }
-                            cost= { cost }
-                            name= { name }
-                            traits= { traits }
-                        />
-                    )
-                })
-            }
+            <div className='Champions-Container__Champions-Cards'>
+                {searchResults.length === 0 ? 
+                    <h5 style={{textAlign: 'center'}}>Did not match data</h5> 
+                    : 
+                    searchResults.map( ({championId, cost, name, traits}) => {
+                        return (
+                            <ChampionCard
+                                key= { championId }
+                                cost= { cost }
+                                name= { name }
+                                traits= { traits }
+                            />
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

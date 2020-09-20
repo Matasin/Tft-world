@@ -43,6 +43,7 @@
     opacity: 0;
     visibility: hidden;
     z-index: 1;
+    width: min-content;
     bottom: 110%;
     left: 50%;
     margin: 0 auto;
@@ -60,6 +61,7 @@
     padding: 0 1vh;
     border-radius: 2vh 4vh;
     background-color: #24314e;
+    min-width: 200px;
 }
 .Champion-Card .Tool-Tip__Champion {
     margin: 0 1vh 0 0;
@@ -103,7 +105,6 @@
 }
 .Champion-Card .Tool-Tip__Items p{
     font-size: medium;
-    margin-right: 1vh;
 }
 
 .Champion-Card .Tool-Tip:hover {
