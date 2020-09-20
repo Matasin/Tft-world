@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Champion-Card.css'
 
 import { Link } from 'react-router-dom'
 import TraitCard from '../Trait-Card/Trait-Card'
 import ItemCard from '../Item-Card/Item-Card'
 
+import ChampionsJson from '../../context/apiContext/champions.json'
+
 const ChampionCard = ({ cost, name }) => {
     const image = name.replace(/ /g, '');
+
+    const [items, setItems] = useState([]);
+    // const { recommended_items } = items;
+    useEffect(() => {
+        ChampionsJson.filter(champion => champion.name === name && setItems(champion.recommended_items));
+    })
+
     return (
         <Link
             className='Champion-Card'
@@ -44,15 +53,15 @@ const ChampionCard = ({ cost, name }) => {
                 <div className='Tool-Tip__Down'>
                     <div className='Tool-Tip__Items'>
                         <p>Items: </p>
-                        <ItemCard
-                            image={15}
-                        />
-                        <ItemCard
-                            image={99}
-                        />
-                        <ItemCard
-                            image={22}
-                        />
+                        {items.map((item, index) => {
+                            return (
+                                <ItemCard
+                                    key={index}
+                                    image={item}
+                                    imageOnError={item.split("").reverse().join("")}
+                                />
+                            )
+                        })}
                     </div>
                 </div>
             </div>

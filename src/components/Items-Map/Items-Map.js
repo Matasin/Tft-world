@@ -6,7 +6,7 @@ import ItemCard from '../Item-Card/Item-Card';
 const ItemsMap = ({ items, scope, setItemID }) => {
     return (
         <ul className='Items-Map-Container'>
-            {items.map( ({id, name, stats, description}) => {
+            {items.map( ({id}) => {
                 const image = id < 10 ? `0${id}` : id;
                 if(scope <= id) return null;
                 if(scope === 'WHOLE' && id <= 10) return null;

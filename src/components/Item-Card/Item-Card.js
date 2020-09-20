@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
+
 import ItemsJson from '../../context/apiContext/items.json'
 
 const ItemCard = ({ image, imageOnError, itemId }) => {
-    const [ item, setItem ] = useState({
+    const [item, setItem] = useState({
         name: '',
         stats: '',
         description: '',
@@ -10,9 +11,9 @@ const ItemCard = ({ image, imageOnError, itemId }) => {
     const { name, stats, description } = item;
 
     useEffect(() => {
-        ItemsJson.filter( item => item.id === itemId && setItem(item));
+        ItemsJson.filter(item => item.id === itemId && setItem(item));
     })
-
+    
     return (
         <>
             <div className='Tool-Tip'>

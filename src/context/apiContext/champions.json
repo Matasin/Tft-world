@@ -6,6 +6,11 @@
     "traits": [
       "Cultist",
       "Vanguard"
+    ],
+    "recommended_items": [
+      "56", 
+      "57",
+      "77"
     ]
   },
   {
@@ -15,6 +20,11 @@
     "traits": [
       "Spirit",
       "Mage"
+    ],
+    "recommended_items": [
+      "73",
+      "33",
+      "14"
     ]
   },
   {
@@ -24,6 +34,11 @@
     "traits": [
       "Ninja",
       "Assassin"
+    ],
+    "recommended_items": [
+      "44",
+      "13",
+      "22"
     ]
   },
   {
@@ -33,6 +48,11 @@
     "traits": [
       "Fortune",
       "Mage"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "13"
     ]
   },
   {
@@ -42,6 +62,11 @@
     "traits": [
       "Moonlight",
       "Hunter"
+    ],
+    "recommended_items": [
+      "15",
+      "32",
+      "24"
     ]
   },
   {
@@ -51,6 +76,11 @@
     "traits": [
       "Elderwood",
       "Hunter"
+    ],
+    "recommended_items": [
+      "12",
+      "15",
+      "32"
     ]
   },
   {
@@ -61,6 +91,11 @@
       "Warlord",
       "Keeper",
       "Emperor"
+    ],
+    "recommended_items": [
+      "15",
+      "32",
+      "14"
     ]
   },
   {
@@ -70,6 +105,11 @@
     "traits": [
       "Dusk",
       "Mystic"
+    ],
+    "recommended_items": [
+      "44",
+      "14",
+      "76"
     ]
   },
   {
@@ -79,6 +119,11 @@
     "traits": [
       "Moonlight",
       "Assassin"
+    ],
+    "recommended_items": [
+      "15",
+      "13",
+      "36"
     ]
   },
   {
@@ -88,6 +133,11 @@
     "traits": [
       "Cultist",
       "Keeper"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "77"
     ]
   },
   {
@@ -97,6 +147,11 @@
     "traits": [
       "Cultist",
       "Shade"
+    ],
+    "recommended_items": [
+      "15",
+      "13",
+      "36"
     ]
   },
   {
@@ -106,6 +161,11 @@
     "traits": [
       "Elderwood",
       "Dazzler"
+    ],
+    "recommended_items": [
+      "32",
+      "73",
+      "14"
     ]
   },
   {
@@ -115,6 +175,11 @@
     "traits": [
       "Enlightened",
       "Duelist"
+    ],
+    "recommended_items": [
+      "66",
+      "15",
+      "49"
     ]
   },
   {
@@ -124,6 +189,11 @@
     "traits": [
       "Warlord",
       "Vanguard"
+    ],
+    "recommended_items": [
+      "15",
+      "36",
+      "73"
     ]
   },
   {
@@ -133,6 +203,11 @@
     "traits": [
       "Elderwood",
       "Vanguard"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "57"
     ]
   },
   {
@@ -143,6 +218,11 @@
       "Enlightened",
       "Divine",
       "Adept"
+    ],
+    "recommended_items": [
+      "66",
+      "15",
+      "47"
     ]
   },
   {
@@ -152,6 +232,11 @@
     "traits": [
       "Enlightened",
       "Mystic"
+    ],
+    "recommended_items": [
+      "44",
+      "14",
+      "76"
     ]
   },
   {
@@ -161,6 +246,11 @@
     "traits": [
       "Warlord",
       "Keeper"
+    ],
+    "recommended_items": [
+      "15",
+      "36",
+      "73"
     ]
   },
   {
@@ -170,6 +260,11 @@
     "traits": [
       "Divine",
       "Duelist"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "57"
     ]
   },
   {
@@ -179,6 +274,11 @@
     "traits": [
       "Cultist",
       "Sharpshooter"
+    ],
+    "recommended_items": [
+      "15",
+      "19",
+      "29"
     ]
   },
   {
@@ -188,6 +288,11 @@
     "traits": [
       "Fortune",
       "Sharpshooter"
+    ],
+    "recommended_items": [
+      "15",
+      "32",
+      "14"
     ]
   },
   {
@@ -197,6 +302,11 @@
     "traits": [
       "Cultist",
       "Duelist"
+    ],
+    "recommended_items": [
+      "32",
+      "22",
+      "62"
     ]
   },
   {
@@ -207,6 +317,11 @@
       "Warlord",
       "Fortune",
       "Assassin"
+    ],
+    "recommended_items": [
+      "15",
+      "13",
+      "69"
     ]
   },
   {
@@ -216,6 +331,11 @@
     "traits": [
       "Tormented",
       "Shade"
+    ],
+    "recommended_items": [
+      "66",
+      "15",
+      "33"
     ]
   },
   {
@@ -225,6 +345,11 @@
     "traits": [
       "Ninja",
       "Keeper"
+    ],
+    "recommended_items": [
+      "15",
+      "36",
+      "73"
     ]
   },
   {
@@ -234,6 +359,11 @@
     "traits": [
       "Spirit",
       "Hunter"
+    ],
+    "recommended_items": [
+      "44",
+      "13",
+      "39"
     ]
   },
   {
@@ -243,6 +373,11 @@
     "traits": [
       "Divine",
       "Duelist"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "15"
     ]
   },
   {
@@ -252,6 +387,11 @@
     "traits": [
       "Dusk",
       "Mage"
+    ],
+    "recommended_items": [
+      "15",
+      "33",
+      "14"
     ]
   },
   {
@@ -261,6 +401,11 @@
     "traits": [
       "Moonlight",
       "Dazzler"
+    ],
+    "recommended_items": [
+      "13",
+      "73",
+      "14"
     ]
   },
   {
@@ -270,6 +415,11 @@
     "traits": [
       "Elderwood",
       "Mage"
+    ],
+    "recommended_items": [
+      "44",
+      "14",
+      "76"
     ]
   },
   {
@@ -279,6 +429,11 @@
     "traits": [
       "Divine",
       "Dazzler"
+    ],
+    "recommended_items": [
+      "73",
+      "33",
+      "14"
     ]
   },
   {
@@ -288,6 +443,11 @@
     "traits": [
       "Elderwood",
       "Brawler"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "77"
     ]
   },
   {
@@ -297,6 +457,11 @@
     "traits": [
       "Enlightened",
       "Dazzler"
+    ],
+    "recommended_items": [
+      "44",
+      "13",
+      "73"
     ]
   },
   {
@@ -306,6 +471,11 @@
     "traits": [
       "Enlightened",
       "Mage"
+    ],
+    "recommended_items": [
+      "15",
+      "33",
+      "14"
     ]
   },
   {
@@ -315,6 +485,11 @@
     "traits": [
       "Warlord",
       "Sharpshooter"
+    ],
+    "recommended_items": [
+      "39",
+      "33",
+      "14"
     ]
   },
   {
@@ -324,6 +499,11 @@
     "traits": [
       "Elderwood",
       "Brawler"
+    ],
+    "recommended_items": [
+      "56",
+      "13",
+      "77"
     ]
   },
   {
@@ -333,6 +513,11 @@
     "traits": [
       "Cultist",
       "Assassin"
+    ],
+    "recommended_items": [
+      "44",
+      "73",
+      "14"
     ]
   },
   {
@@ -342,6 +527,11 @@
     "traits": [
       "Dusk",
       "Keeper"
+    ],
+    "recommended_items": [
+      "15",
+      "36",
+      "57"
     ]
   },
   {
@@ -351,6 +541,11 @@
     "traits": [
       "Fortune",
       "Vanguard"
+    ],
+    "recommended_items": [
+      "15",
+      "36",
+      "73"
     ]
   },
   {
@@ -360,6 +555,11 @@
     "traits": [
       "Boss",
       "Brawler"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "13"
     ]
   },
   {
@@ -370,6 +570,11 @@
       "Ninja",
       "Adept",
       "Mystic"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "57"
     ]
   },
   {
@@ -379,6 +584,11 @@
     "traits": [
       "Moonlight",
       "Brawler"
+    ],
+    "recommended_items": [
+      "55",
+      "56",
+      "72"
     ]
   },
   {
@@ -388,6 +598,11 @@
     "traits": [
       "Fortune",
       "Brawler"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "52"
     ]
   },
   {
@@ -397,6 +612,11 @@
     "traits": [
       "Enlightened",
       "Assassin"
+    ],
+    "recommended_items": [
+      "16",
+      "11",
+      "69"
     ]
   },
   {
@@ -406,6 +626,11 @@
     "traits": [
       "Spirit",
       "Sharpshooter"
+    ],
+    "recommended_items": [
+      "32",
+      "73",
+      "14"
     ]
   },
   {
@@ -415,6 +640,11 @@
     "traits": [
       "Dusk",
       "Vanguard"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "57"
     ]
   },
   {
@@ -424,6 +654,11 @@
     "traits": [
       "Cultist",
       "Mage"
+    ],
+    "recommended_items": [
+      "73",
+      "33",
+      "14"
     ]
   },
   {
@@ -433,6 +668,11 @@
     "traits": [
       "Dusk",
       "Sharpshooter"
+    ],
+    "recommended_items": [
+      "12",
+      "32",
+      "62"
     ]
   },
   {
@@ -442,6 +682,11 @@
     "traits": [
       "Elderwood",
       "Mage"
+    ],
+    "recommended_items": [
+      "44",
+      "13",
+      "39"
     ]
   },
   {
@@ -451,6 +696,11 @@
     "traits": [
       "Warlord",
       "Brawler"
+    ],
+    "recommended_items": [
+      "66",
+      "56",
+      "57"
     ]
   },
   {
@@ -461,6 +711,11 @@
       "Divine",
       "Hunter",
       "Brawler"
+    ],
+    "recommended_items": [
+      "15",
+      "32",
+      "22"
     ]
   },
   {
@@ -470,6 +725,11 @@
     "traits": [
       "Divine",
       "Vanguard"
+    ],
+    "recommended_items": [
+      "11",
+      "32",
+      "22"
     ]
   },
   {
@@ -479,6 +739,11 @@
     "traits": [
       "Warlord",
       "Duelist"
+    ],
+    "recommended_items": [
+      "55",
+      "66",
+      "56"
     ]
   },
   {
@@ -488,6 +753,11 @@
     "traits": [
       "Exile",
       "Duelist"
+    ],
+    "recommended_items": [
+      "15",
+      "49",
+      "69"
     ]
   },
   {
@@ -497,6 +767,11 @@
     "traits": [
       "Exile",
       "Adept"
+    ],
+    "recommended_items": [
+      "44",
+      "15",
+      "77"
     ]
   },
   {
@@ -506,6 +781,11 @@
     "traits": [
       "Spirit",
       "Mystic"
+    ],
+    "recommended_items": [
+      "44",
+      "14",
+      "76"
     ]
   },
   {
@@ -515,6 +795,11 @@
     "traits": [
       "Ninja",
       "Shade"
+    ],
+    "recommended_items": [
+      "13",
+      "15",
+      "22"
     ]
   },
   {
@@ -524,6 +809,11 @@
     "traits": [
       "Cultist",
       "Mystic"
+    ],
+    "recommended_items": [
+      "44",
+      "15",
+      "14"
     ]
   }
 ]
