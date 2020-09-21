@@ -4,6 +4,7 @@ import './Champion-Detail.css'
 import JsonChampions from '../../context/apiContext/champions.json'
 
 import ChampionCard from '../../components/Champion-Card/Champion-Card'
+import ItemCard from '../../components/Item-Card/Item-Card'
 import ChampionAbility from '../../components/Champion-Ability/Champion-Ability';
 import TraitDescripionMap from '../../components/Trait-Description-Map/Trait-Description-Map'
 import SynergyMap from '../../components/Synergy-Map/Synergy-Map'
@@ -16,8 +17,9 @@ const ChampionDetail = ({ match }) => {
         name: '',
         cost: '',
         traits: [],
+        recommended_items: []
     });
-    const { name, cost, traits } = champion;
+    const { name, cost, traits, recommended_items } = champion;
     useEffect(() => {
         JsonChampions.map(champion => champion.name === match.params.id && setChampion(champion))
     })
@@ -39,6 +41,21 @@ const ChampionDetail = ({ match }) => {
                 </div>
 
                 <div className='Champion-Detail-Left-Middle'>
+                    {recommended_items.map((item, index) => {
+                        return (
+                            <ItemCard
+                                key={index}
+                                itemId={parseInt(item)}
+                                image={item}
+                                imageOnError={item.split("").reverse().join("")}
+                            />
+                        )
+                    })}
+                </div>
+
+
+
+                <div className='Champion-Detail-Left-Down'>
                     <ChampionAbility
                         holder={name}
                     />

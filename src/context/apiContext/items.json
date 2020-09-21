@@ -37,12 +37,12 @@
   {
     "id": 8,
     "name": "Spatula",
-    "stats": "+ 10 crit and 10% dodge chance"
+    "stats": "It must do something..."
   },
   {
     "id": 9,
     "name": "Sparring Gloves",
-    "description": "Gain Critical Strike Chance and Dodge Chance."
+    "description": "+ 10% Crit and +10% Dodge chance"
   },
   {
     "id": 11,

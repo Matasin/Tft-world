@@ -11,7 +11,6 @@ const ChampionCard = ({ cost, name }) => {
     const image = name.replace(/ /g, '');
 
     const [items, setItems] = useState([]);
-    // const { recommended_items } = items;
     useEffect(() => {
         ChampionsJson.filter(champion => champion.name === name && setItems(champion.recommended_items));
     })

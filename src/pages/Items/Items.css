@@ -31,6 +31,7 @@
     padding: 1vh;
     margin-bottom: 1vh;
 }
+
 .Items-Right {
     width: 70%;
 }
@@ -40,37 +41,6 @@
 
 
 
-
-li:hover .Tool-Tip {
-    opacity: 1;
-    visibility: visible;
-}
-li .Tool-Tip {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1;
-    bottom: 150%;
-    left: 50%;
-    margin: 0 auto;
-    width: max-content;
-    max-width: 20vw;
-    transition: all 300ms ease;
-
-    background-color: #1C2331;
-    color: white;
-    padding: 1vh 2vh;
-    border-radius: 1vh;
-}
-li .Tool-Tip p { margin: 0; }
-li .Tool-Tip p:nth-child(1) { font-weight: bold; }
-li .Tool-Tip:hover {
-    visibility: hidden;
-    opacity: 0;
-}
-.Items-Map-Item {
-    margin: 0 auto;
-}
 
 
 @media screen and (max-width: 1600px) {

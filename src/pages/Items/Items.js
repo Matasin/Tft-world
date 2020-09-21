@@ -64,15 +64,15 @@ const Items = () => {
                     <h6 style={{textAlign: 'center'}}>Did search items</h6> 
                     :
                         itemId <= 10 ?
-                        <ItemsCombinedMapComponent
-                            ItemsJson= { ItemsJson }
-                            itemId= { itemId }
-                        />
-                        :
-                        <ItemsCombinedMapWhole
-                            ItemsJson= { ItemsJson }
-                            itemId= { itemId }
-                        />
+                            <ItemsCombinedMapComponent
+                                ItemsJson= { ItemsJson }
+                                itemId= { itemId }
+                            />
+                            :
+                            <ItemsCombinedMapWhole
+                                ItemsJson= { ItemsJson }
+                                itemId= { itemId }
+                            />
                 }
             </div>
         </div>

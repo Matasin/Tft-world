@@ -24,6 +24,7 @@
     grid-template-columns: repeat(8, 1fr);
 }
 
+
 @media screen and (max-width: 1500px) {
     .Champions-Container {
         width: 80%;
@@ -50,9 +51,14 @@
     .Champions-Container__Champions-Cards .Champion-Card img {
         max-height: 7vh;
     }
+    .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip .Tool-Tip__Cost img {
+        max-height: 1vh;
+    }
+    .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip .Tool-Tip__Items img {
+        max-height: 4vh;
+    }
     .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip {
-        left: -25%;
-        max-width: 40vw;
+        left: -35%;
     }
     .Champions-Container__Champions-Cards .Champion-Card:nth-child(4n) .Tool-Tip {
         left: -140%;

@@ -100,13 +100,19 @@
     justify-content: space-between;
     align-items: center;
 }
+/* disbale black circles */
+.Champion-Card .Tool-Tip__Items .Item-Card .Tool-Tip {
+    display: none;
+}
 .Champion-Card .Tool-Tip__Items img {
     max-height: 4vh;
 }
 .Champion-Card .Tool-Tip__Items p{
     font-size: medium;
 }
-
+.Champion-Card .Tool-Tip img {
+    border: none;
+}
 .Champion-Card .Tool-Tip:hover {
     visibility: hidden;
     opacity: 0;

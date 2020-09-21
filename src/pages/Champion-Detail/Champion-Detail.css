@@ -5,7 +5,9 @@
     text-align: center;
     min-height: 75vh;
     box-shadow: 0px 0px 70px 5px rgba(0,0,0,0.18);
+
 }
+
 /* Disable site effects of using Link in champion card */
 .Champion-Detail-Left .Champion-Card { color: black; margin: 1vh auto; padding: 1vh 0; }
 .Champion-Detail-Left .Champion-Card:hover { text-decoration: none; }
@@ -17,32 +19,45 @@
     flex-direction: column;
     box-shadow: 9px 1px 41px 0px rgba(0,0,0,0.06);
 }
+.Champion-Detail-Left img {
+    border-radius: 0.5vh;
+}
 .Champion-Detail-Left-Up {
     box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
     padding: 2vh 0;
 }
 .Champion-Detail-Left-Up-Stats p { margin: 0;}
-.Champion-Detail-Left-Middle .Champion-Ability {
-    margin: 2vh 0;
-    padding-right: 1vh;
-    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
+.Champion-Detail-Left-Middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh auto;
 }
-
+.Champion-Detail-Left-Middle img {
+    max-height: 5vh;
+    margin: 0 1vh;
+}
+.Champion-Detail-Left-Down .Champion-Ability {
+    margin: 0;
+    padding: 2vh 1vh 1vh;
+    box-shadow:0px -1px 1px -1px rgba(0,0,0,0.95);
+}
 
 
 .Champion-Detail-Right {
     width: 60%;
 }
-/* .Champion-Detail-Right-Up { 
-    height: max-content;
-    padding: 2vh
-} */
-.Champion-Detail-Right-Up .Trait-Description, .Champion-Ability { 
+.Champion-Detail-Right-Up img {
+    max-height: 3vh;
+}
+.Champion-Detail-Right-Up .Trait-Description,
+.Champion-Ability { 
     display: flex;
     align-items: center;
     margin: 2vh;
 }
-.Champion-Detail-Right-Up .Trait-Description, .Champion-Ability p { 
+.Champion-Detail-Right-Up .Trait-Description,
+.Champion-Ability p { 
     color: gray; text-align: left;
 }
 
@@ -75,7 +90,7 @@
     min-width: 100px;
 }
 
-.Champion-Detail-Right-Down img { max-height: 7vh; }
+.Champion-Detail-Right-Down img { max-height: 6vh; }
 /* .Champion-Detail-Right-Down p { margin: 0; } */
 
 
@@ -106,6 +121,9 @@
     .Champion-Detail-Right {
         width: 100%;
     }
+    /* .Champion-Detail-Left-Middle {
+        width: 80%;
+    } */
     .Champion-Detail-Right img {
         max-height: 7vh;
     }

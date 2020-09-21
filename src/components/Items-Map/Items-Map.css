@@ -9,24 +9,25 @@
     list-style: none;
     width: max-content;
     cursor: pointer;
-    position: relative;
     opacity: 0.80;
     transition: all 200ms ease;
+    position: relative;
 }
-.Items-Map-Item::before {
+.Items-Map-Item .Item-Card::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     border: 4px solid #9d65c9;
     opacity: 0;
+    z-index: 1;
     transition: all 200ms ease;
 }
 
-.Items-Map-Item:hover {
+.Items-Map-Item:hover .Item-Card::before{
     opacity: 1;
 }
-.Items-Map-Item:hover::before {
+.Items-Map-Item:hover {
     opacity: 1;
 }
 
