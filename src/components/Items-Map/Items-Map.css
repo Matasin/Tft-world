@@ -10,7 +10,7 @@
     width: max-content;
     cursor: pointer;
     opacity: 0.80;
-    transition: all 200ms ease;
+    transition: all 250ms ease;
     position: relative;
 }
 .Items-Map-Item .Item-Card::before {
@@ -18,10 +18,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 4px solid #9d65c9;
+    border: 4px solid #401a5d;
+    border-radius: 5px;
     opacity: 0;
     z-index: 1;
-    transition: all 200ms ease;
+    transition: all 250ms ease;
 }
 
 .Items-Map-Item:hover .Item-Card::before{

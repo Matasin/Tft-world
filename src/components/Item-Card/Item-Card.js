@@ -14,7 +14,6 @@ const ItemCard = ({ image, imageOnError, itemId }) => {
 
     useEffect(() => {
         ItemsJson.filter(item => item.id === itemId && setItem(item));
-        // ItemsJson.filter(item => item.id === itemId ? setItem(item) : setItem(item.split("").reverse().join("")));
     })
     return (
         <div className='Item-Card'>
@@ -26,6 +25,7 @@ const ItemCard = ({ image, imageOnError, itemId }) => {
             <img
                 src={process.env.PUBLIC_URL + `/assets/images/items/${image}.webp`}
                 onError={e => {
+                    ItemsJson.filter(item => item.id === parseFloat(itemId.toString().split('').reverse().join('')) * Math.sign(itemId) && setItem(item));
                     e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${imageOnError}.png`}`
                 }}
                 alt={name}

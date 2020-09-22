@@ -12,12 +12,12 @@
     visibility: hidden;
     z-index: 1;
     width: max-content;
-    max-width: 175px;
+    max-width: 200px;
     text-align: left;
-    bottom: 110%;
+    bottom: 125%;
     left: 50%;
-    margin: 0 auto;
-    transition: all 300ms ease;
+    /* margin: 0 auto; */
+    transition: all 250ms ease;
 
     background-color: #1C2331;
     color: white;

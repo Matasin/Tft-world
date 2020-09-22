@@ -25,7 +25,7 @@ const ItemsCombinedMapComponent = ({ ItemsJson, itemId }) => {
                             />
                         </li>
 
-                        <div>+</div>
+                        <div className='Items-Combined-Map-Component-Item-Block__Sign'>+</div>
 
                         <li className='Items-Combined-Map-Component-Item'>
                             <ItemCard
@@ -35,7 +35,7 @@ const ItemsCombinedMapComponent = ({ ItemsJson, itemId }) => {
                             />
                         </li>
 
-                        <div>=</div>
+                        <div className='Items-Combined-Map-Component-Item-Block__Sign'>=</div>
 
                         <li className='Items-Combined-Map-Component-Item'>
                             <ItemCard
@@ -45,30 +45,6 @@ const ItemsCombinedMapComponent = ({ ItemsJson, itemId }) => {
                             />
                         </li>
 
-
-                        {/* <img
-                            src={process.env.PUBLIC_URL + `/assets/images/items/${`0${firstItem}`}.webp`}
-                            onError={e => {
-                                e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${`0${firstItem}`}.png`}`
-                            }}
-                            alt={name}
-                        />
-                        <div>+</div>
-                        <img
-                            src={process.env.PUBLIC_URL + `/assets/images/items/${secondItem}.webp`}
-                            onError={e => {
-                                e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${secondItem}.png`}`
-                            }}
-                            alt={name}
-                        />
-                        <div>=</div>
-                        <img 
-                            src={process.env.PUBLIC_URL + `/assets/images/items/${firstItem + secondItem.replace(/^0+/, '')}.webp`}
-                            alt=''
-                            onError={e => {
-                                e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${secondItem.replace(/^0+/, '') + firstItem}.webp`}`
-                            }}// some time is required to reverse numbers in path to img
-                        /> */}
                     </div>
 
                 )

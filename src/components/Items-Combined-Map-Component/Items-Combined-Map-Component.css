@@ -18,3 +18,8 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.Items-Combined-Map-Component-Item-Block__Sign {
+    transform: scale(1.5);
+    color: white;
+}

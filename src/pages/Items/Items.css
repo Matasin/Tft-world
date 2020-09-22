@@ -1,13 +1,17 @@
 .Items-Container {
     margin: 7vh auto;
-    padding: 1vh 2vh;
+    padding: 1vh 0;
     width: 65%;
 
     display: flex;
 
-    box-shadow: 0px 0px 60px -6px #bb9bc5;
-    background-color: #eeeeee  ;
+    box-shadow: 0px 0px 60px -6px #435264;
+    background-color: #435264;
     border-radius: 2vh;
+    color: #ccd6da;
+}
+.Items-Container img {
+    border-radius: 5px;
 }
 .Items-Left,
 .Items-Right {
@@ -15,18 +19,16 @@
 }
 .Items-Left {
     width: 30%;
-    border-right: thin solid #8d93ab;
+    box-shadow: 1px 0px 1px -1px rgba(0,0,0,0.95)
 }
 .Items-Left img {
     max-height: 4vh;
 }
 .Items-Left ul {
-    border-top: thin solid #8d93ab;
-    border-bottom: thin solid #8d93ab;
+    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95), 0px -1px 1px -1px rgba(0,0,0,0.95);
 }
 .Items-Left-Components input {
     width: 100%;
-    border: none;
     border-radius: 0.5vh;
     padding: 1vh;
     margin-bottom: 1vh;
@@ -79,11 +81,9 @@
     .Items-Left {
         width: 100%;
         margin: 0 auto;
-        border-right: 0;
-        border-bottom: thin solid gray;
+        box-shadow: 1px 0px 1px -1px transparent
     }
     .Items-Left .Items-Map-Container { 
-        border-bottom: none;
         grid-template-columns: repeat(4, 1fr);
         gap: 3vh;
     }
@@ -111,5 +111,4 @@
     .Items-Combined-Map-Component-Item-Block li:nth-last-child(1) .Tool-Tip {
         left: -230%;
     }
-    
 }

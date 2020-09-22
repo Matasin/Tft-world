@@ -10,7 +10,7 @@
 
 /* Disable site effects of using Link in champion card */
 .Champion-Detail-Left .Champion-Card { color: black; margin: 1vh auto; padding: 1vh 0; }
-.Champion-Detail-Left .Champion-Card:hover { text-decoration: none; }
+.Champion-Detail-Left .Champion-Card:hover { text-decoration: none; width: max-content; color: unset;}
 /* // */
 .Champion-Detail-Left {
     width: 40%;
