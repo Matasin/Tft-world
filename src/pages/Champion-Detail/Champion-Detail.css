@@ -118,12 +118,12 @@
         padding: 2vh 0vh;
         width: 100%;
     }
+    .Champion-Detail-Left-Middle .Item-Card:nth-child(3) .Tool-Tip {
+        left: -75%;
+    }
     .Champion-Detail-Right {
         width: 100%;
     }
-    /* .Champion-Detail-Left-Middle {
-        width: 80%;
-    } */
     .Champion-Detail-Right img {
         max-height: 7vh;
     }

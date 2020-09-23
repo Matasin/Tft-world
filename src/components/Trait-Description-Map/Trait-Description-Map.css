@@ -1,3 +1,6 @@
+.Trait-Description p {
+    margin: 0;
+}
 .Trait-Description-Image-Header {
     min-width: 125px;
     max-width: 125px;

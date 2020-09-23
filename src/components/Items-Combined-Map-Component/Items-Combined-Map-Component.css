@@ -4,7 +4,7 @@
 .Items-Combined-Map-Component-Item-Block {
     display: flex;
     align-items: center;
-    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
+    box-shadow: 0px 1px 1px -1px #ccd6da;
 }
 .Items-Combined-Map-Component-Item {
     list-style: none;

@@ -10,6 +10,7 @@
     width: max-content;
     cursor: pointer;
     opacity: 0.80;
+    margin: 0 auto;
     transition: all 250ms ease;
     position: relative;
 }

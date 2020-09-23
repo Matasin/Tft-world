@@ -19,13 +19,13 @@
 }
 .Items-Left {
     width: 30%;
-    box-shadow: 1px 0px 1px -1px rgba(0,0,0,0.95)
+    box-shadow: 1px 0px 1px -1px #ccd6da;
 }
 .Items-Left img {
     max-height: 4vh;
 }
 .Items-Left ul {
-    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95), 0px -1px 1px -1px rgba(0,0,0,0.95);
+    box-shadow: 0px 1px 1px -1px #ccd6da, 0px -1px 1px -1px#ccd6da;
 }
 .Items-Left-Components input {
     width: 100%;
