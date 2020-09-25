@@ -17,3 +17,7 @@
 
     display: flex;
 }
+.Items-Combined-Map-Whole-Item-Block__Sign {
+    transform: scale(1.5);
+    color: #ccd6da;
+}

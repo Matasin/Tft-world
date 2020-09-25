@@ -3,27 +3,38 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    min-height: 75vh;
-    box-shadow: 0px 0px 70px 5px rgba(0,0,0,0.18);
-
+    min-height: 65vh;
+    /* box-shadow: 0px 0px 70px 5px rgba(0,0,0,0.18); */
 }
 
 /* Disable site effects of using Link in champion card */
-.Champion-Detail-Left .Champion-Card { color: black; margin: 1vh auto; padding: 1vh 0; }
-.Champion-Detail-Left .Champion-Card:hover { text-decoration: none; width: max-content; color: unset;}
-/* // */
+.Champion-Detail-Left,
+.Champion-Detail-Right {
+    color: #dbd8d8;
+}
+.Champion-Detail-Left .Champion-Card { 
+    color: #dbd8d8;
+    font-weight: 700;
+    margin: 1vh auto; 
+    padding: 1vh 0; 
+}
+.Champion-Detail-Left .Champion-Card:hover { 
+    text-decoration: none; 
+    width: max-content; 
+    color: unset;
+}
 .Champion-Detail-Left {
     width: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 9px 1px 41px 0px rgba(0,0,0,0.06);
+    box-shadow: 1px 0px 2px -1px #dbd8d8;
 }
 .Champion-Detail-Left img {
     border-radius: 0.5vh;
 }
 .Champion-Detail-Left-Up {
-    box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.95);
+    box-shadow: 0px 1px 1px -1px #dbd8d8;
     padding: 2vh 0;
 }
 .Champion-Detail-Left-Up-Stats p { margin: 0;}
@@ -40,7 +51,7 @@
 .Champion-Detail-Left-Down .Champion-Ability {
     margin: 0;
     padding: 2vh 1vh 1vh;
-    box-shadow:0px -1px 1px -1px rgba(0,0,0,0.95);
+    box-shadow:0px -1px 1px -1px #dbd8d8;
 }
 
 
@@ -58,7 +69,7 @@
 }
 .Champion-Detail-Right-Up .Trait-Description,
 .Champion-Ability p { 
-    color: gray; text-align: left;
+    color: #dbd8d8; text-align: left;
 }
 
 .Champion-Detail-Right-Down { 
@@ -67,13 +78,13 @@
 .Champion-Detail-Right-Down h5 {
     width: 100%;
     text-align: left;
-    margin: 2vh;
+    margin: 2vh 0;
 }
 .Champion-Detail-Right-Down-Synergy {
     display: flex;
     align-items: center;
     padding-top: 1vh;
-    box-shadow: 0px -1px 1px -1px rgba(0,0,0,0.95);
+    box-shadow: 0px -1px 1px -1px #dbd8d8;
 }
 .Champion-Detail-Right-Down-Synergy-Trait-Image {
     width: 10%;
@@ -118,8 +129,14 @@
         padding: 2vh 0vh;
         width: 100%;
     }
-    .Champion-Detail-Left-Middle .Item-Card:nth-child(3) .Tool-Tip {
+    .Champion-Detail-Left-Middle .Item-Card:nth-child(2) .Tool-Tip {
+        left: 50%;
+    }
+    .Champion-Detail-Left-Middle .Item-Card:nth-child(2) .Tool-Tip {
         left: -75%;
+    }
+    .Champion-Detail-Left-Middle .Item-Card:nth-child(3) .Tool-Tip {
+        left: -125%;
     }
     .Champion-Detail-Right {
         width: 100%;
@@ -128,7 +145,7 @@
         max-height: 7vh;
     }
     .Champion-Detail-Right-Down .Champion-Card { 
-        margin: 0.5vh 0;
+        margin: 0.5vh auto;
     }
     .Champion-Detail-Container .Champion-Card .Tool-Tip {
         left: -35%;

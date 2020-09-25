@@ -21,7 +21,7 @@ const ChampionDetail = ({ match }) => {
     });
     const { name, cost, traits, recommended_items } = champion;
     useEffect(() => {
-        JsonChampions.map(champion => champion.name === match.params.id && setChampion(champion))
+        JsonChampions.map(champion => champion.name.toLowerCase() === match.params.id.toLowerCase() && setChampion(champion))
     })
     if (champion.championId === undefined) return <DidNotMatch header='Did not match data' paragraph='Check url is correct or go to ' goTo='champions' />
     return (
@@ -35,7 +35,7 @@ const ChampionDetail = ({ match }) => {
                         name={`${name}`}
                     />
                     <div className='Champion-Detail-Left-Up-Stats'>
-                        <h5>Stats: </h5>
+                        <h6>Stats: </h6>
                         <p>Cost: {cost}</p>
                     </div>
                 </div>

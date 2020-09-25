@@ -1,29 +1,33 @@
 .Champions-Container {
     margin: 10vh auto;
-    padding: 1vh 2vh;
     width: 60%;
-    
-    box-shadow: 0px 0px 60px -6px #435264;
-    background-color: #435264  ;
-    border: 1px solid black;
+
     border-radius: 10px;
     position: relative;
 }
 
 .Champions-Container input {
     position: absolute;
-    top: -7vh;
-    margin: 0 auto;
+    top: -4em;
+    right: 0;
     border: none;
-    border-radius: 1vh;
-    padding: 1vh 1vh;
+    border-radius: 0.5em;
+    padding: 0.75em;
+    background-color: #dfe4eb;
     transition: all 250ms ease;
+}
+.Champions-Container input::placeholder {
+    font-size: 0.90em;
 }
 .Champions-Container input:focus { box-shadow: 0px 0px 60px -1px #435264; }
 
 .Champions-Container__Champions-Cards {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+    box-shadow: 0px -1px 1px -1px white,
+                0px 1px 1px -1px white,
+                1px 0px 1px -1px white,
+                -1px 0px 1px -1px white;
 }
 
 
@@ -48,21 +52,24 @@
         width: 100%;
     }
     .Champions-Container__Champions-Cards {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     .Champions-Container__Champions-Cards .Champion-Card img {
-        max-height: 7vh;
+        max-height: 4em;
     }
     .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip .Tool-Tip__Cost img {
-        max-height: 1vh;
+        max-height: 0.75em;
     }
     .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip .Tool-Tip__Items img {
-        max-height: 4vh;
+        max-height: 2em;
+    }
+    .Champions-Container input {
+        right: 2em;
     }
     .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip {
-        left: -35%;
+        left: 10px;
     }
-    .Champions-Container__Champions-Cards .Champion-Card:nth-child(4n) .Tool-Tip {
-        left: -140%;
+    .Champions-Container__Champions-Cards .Champion-Card:nth-child(3n) .Tool-Tip {
+        left: -120px;
     }
 } 

@@ -1,4 +1,8 @@
 .Home {
     display: flex;
     justify-content: center;
+    color: white;
+}
+.Home {
+    margin-top: 20vh;
 }

@@ -2,6 +2,7 @@
     width: 100%;
     padding: 1vh 10vh;
     margin: 5vh auto;
+    color: rgb(219, 216, 216);
 }
 
 @media (max-width: 1100px) {

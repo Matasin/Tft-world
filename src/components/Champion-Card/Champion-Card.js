@@ -18,7 +18,7 @@ const ChampionCard = ({ cost, name }) => {
     return (
         <Link
             className='Champion-Card'
-            to={`/champions/${name}`}
+            to={`/champions/${name.toLowerCase()}`}
         >
 
             <div className='Tool-Tip'>

@@ -25,12 +25,16 @@ const ItemsCombinedMapWhole = ({ ItemsJson, itemId }) => {
                                             imageOnError={`0${id}`}
                                         />
                                     </li>
-                                    {fakeIndex === 0 ? <div>+</div> : null}
+                                    {
+                                        fakeIndex === 0 ?
+                                            <div className='Items-Combined-Map-Whole-Item-Block__Sign'>+</div>
+                                            : null
+                                    }
                                 </React.Fragment>
                             )
                         })}
 
-                        <div>=</div>
+                        <div className='Items-Combined-Map-Whole-Item-Block__Sign'>=</div>
 
                         <li className='Items-Combined-Map-Whole-Item'>
                             <ItemCard

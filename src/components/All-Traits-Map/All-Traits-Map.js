@@ -6,19 +6,17 @@ import AllTraitsMapSets from '../All-Traits-Map-Sets/All-Traits-Map-Sets'
 const AllTraitsMap = ({ name, description, innate, type, sets }) => {
     const image = name;
     return (
-        <>
-            <div className='All-Traits-List-Item'>
-                <li>
-                    <p>{name} {`(${type})`}</p>
-                    <p>{description}</p>
-                    {innate && <p>Innate: {innate}</p>}
-                </li>
-                <AllTraitsMapSets
-                    sets={sets}
-                    image={image}
-                />
-            </div>
-        </>
+        <div className='All-Traits-List-Item'>
+            <li>
+                <p>{name} {`(${type})`}</p>
+                <p>{description}</p>
+                {innate && <p>Innate: {innate}</p>}
+            </li>
+            <AllTraitsMapSets
+                sets={sets}
+                image={image}
+            />
+        </div>
 
     )
 }
