@@ -67,9 +67,9 @@
         right: 2em;
     }
     .Champions-Container__Champions-Cards .Champion-Card .Tool-Tip {
-        left: 10px;
+        left: -20px;
     }
     .Champions-Container__Champions-Cards .Champion-Card:nth-child(3n) .Tool-Tip {
-        left: -120px;
+        left: -125px;
     }
 } 

@@ -23,7 +23,7 @@
     box-shadow: 1px 0px 1px -1px #ccd6da;
 }
 .Items-Left img {
-    max-height: 4vh;
+    max-height: 2.5em;
 }
 .Items-Left ul {
     box-shadow: 0px 1px 1px -1px #ccd6da, 0px -1px 1px -1px#ccd6da;
@@ -40,7 +40,7 @@
     width: 70%;
 }
 .Items-Right img {
-    max-height: 5vh;
+    max-height: 3em;
 }
 
 
@@ -81,7 +81,7 @@
 @media screen and (max-width: 900px) {
     .Items-Container {
         width: 100%;
-        margin: 3vh auto;
+        margin: 2vh auto;
         flex-direction: column;
     }
     .Items-Left {
@@ -94,7 +94,7 @@
         gap: 3vh;
     }
     .Items-Left img {
-        max-height: 5vh;
+        max-height: 2.5em;
     }
     .Items-Right {
         width: 100%;
@@ -114,13 +114,15 @@
     .Items-Map-Container .Items-Map-Item:nth-child(4n) .Tool-Tip {
         left: -300%;
     }
-    .Items-Container .Items-Right .Item-Card .Tool-Tip {
-        left: -100%;
+    .Items-Combined-Map-Component-Item-Block .Items-Combined-Map-Component-Item:nth-child(1) .Item-Card .Tool-Tip{
+        left: -50%;
     }
-    .Items-Container .Items-Right .Item-Card .Tool-Tip {
-        left: -100%;
-    }
-    .Items-Combined-Map-Component-Item-Block .Item-Card:nth-last-child(1) .Tool-Tip{
+    .Items-Combined-Map-Component-Item-Block .Items-Combined-Map-Component-Item:nth-child(5) .Item-Card .Tool-Tip{
         left: -250%;
     }
+
+    .Items-Combined-Map-Component-Item-Block .Items-Combined-Map-Whole-Item:nth-child(1) .Item-Card .Tool-Tip{
+        left: -50%;
+    }
+
 }
