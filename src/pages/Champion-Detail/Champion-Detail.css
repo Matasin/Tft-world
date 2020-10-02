@@ -151,6 +151,10 @@
     .Champion-Detail-Right-Down .Champion-Card { 
         margin: 0.5vh auto;
     }
+    .Champion-Detail-Right-Down-Synergy-Champion-Card-Container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .Champion-Detail-Container .Champion-Card .Tool-Tip {
         left: -35%;
     }

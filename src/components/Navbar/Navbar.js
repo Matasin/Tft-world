@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { NAVBAR_ITEMS } from '../../constants/constants'
 
 const Navbar = () => {
-    const [ isOpen, setIsOpen ] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className='Navbar'>
             <div className='Navbar-Logo-Container'>
@@ -17,23 +17,31 @@ const Navbar = () => {
                     <span>tft</span>
                 </Link>
             </div>
+
+            <div
+                className={`Navbar-Container-To-Hide ${isOpen ? 'Navbar-Active' : ''}`}
+                onClick={() => setIsOpen(!isOpen)}
+                style={isOpen ? {display: 'block'} : { display: 'none' }}
+            >
+            </div>
+            
             <div className={`Navbar-Items-Container ${isOpen ? 'Navbar-Active' : ''}`} >
-                {NAVBAR_ITEMS.map( ({ id, name, path }) => {
+                {NAVBAR_ITEMS.map(({ id, name, path }) => {
                     return (
-                        <Link 
-                            to= {path} 
-                            key= {id} 
-                            className= {`Navbar-Item ${isOpen ? 'Navbar-Active' : ''}`}
-                            onClick= { () => setIsOpen(!isOpen) }
+                        <Link
+                            to={path}
+                            key={id}
+                            className={`Navbar-Item ${isOpen ? 'Navbar-Active' : ''}`}
+                            onClick={() => setIsOpen(!isOpen)}
                         >
                             {name}
                         </Link>
                     )
                 })}
             </div>
-            <div 
-                className= {`Navbar-Hamburger ${isOpen ? 'Navbar-Hamburger-Active' : ''}`}
-                onClick= { () => setIsOpen(!isOpen) }
+            <div
+                className={`Navbar-Hamburger ${isOpen ? 'Navbar-Hamburger-Active' : ''}`}
+                onClick={() => setIsOpen(!isOpen)}
             >
                 <div></div>
                 <div></div>
