@@ -1,0 +1,1 @@
+{"version":3,"sources":["Home.css"],"names":[],"mappings":"AAAA,MACI,YAAa,CACb,sBAAuB,CACvB,UAAY,CAGZ,eAFJ","file":"10.c63a01ba.chunk.css","sourcesContent":[".Home {\r\n    display: flex;\r\n    justify-content: center;\r\n    color: white;\r\n}\r\n.Home {\r\n    margin-top: 20vh;\r\n}"]}

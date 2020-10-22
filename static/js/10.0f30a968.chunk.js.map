@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Home/Home.js"],"names":["Home","className"],"mappings":"mIAAA,iCAKeA,UAFF,kBAAM,wBAAIC,UAAU,QAAd","file":"static/js/10.0f30a968.chunk.js","sourcesContent":["import React from 'react';\r\nimport './Home.css'\r\n\r\nconst Home = () => <h2 className='Home'>Home</h2>\r\n\r\nexport default Home;\r\n\r\n"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["Error-404.css"],"names":[],"mappings":"AAAA,WACI,YAAa,CACb,sBAAuB,CACvB,kBACJ,CACA,cACI,gBACJ","file":"8.3ad46bd9.chunk.css","sourcesContent":[".Error-404 {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.Error-404 h1 {\r\n    line-height: 75vh;\r\n}"]}

@@ -1,0 +1,2 @@
+(this["webpackJsonptft-world"]=this["webpackJsonptft-world"]||[]).push([[8],{52:function(t,e,n){},55:function(t,e,n){"use strict";n.r(e);var r=n(0),a=n.n(r);n(52);e.default=function(){return a.a.createElement("div",{className:"Error-404"},a.a.createElement("h1",null,"Error 404 page not found"))}}}]);
+//# sourceMappingURL=8.d73eebab.chunk.js.map

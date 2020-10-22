@@ -1,0 +1,2 @@
+(this["webpackJsonptft-world"]=this["webpackJsonptft-world"]||[]).push([[10],{36:function(t,e,n){},53:function(t,e,n){"use strict";n.r(e);var o=n(0),s=n.n(o);n(36);e.default=function(){return s.a.createElement("h2",{className:"Home"},"Home")}}}]);
+//# sourceMappingURL=10.0f30a968.chunk.js.map
