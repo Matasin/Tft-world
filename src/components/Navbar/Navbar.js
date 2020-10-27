@@ -13,7 +13,7 @@ const Navbar = () => {
                     to='/'
                     className='Navbar-Logo'
                 >
-                    <img src={process.env.PUBLIC_URL + '/assets/logo.webp'} alt='Logo' />
+                    <img src={process.env.PUBLIC_URL + '/assets/logo.png'} alt='Logo' />
                     <span>tft</span>
                 </Link>
             </div>

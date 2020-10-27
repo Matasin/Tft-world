@@ -19,10 +19,7 @@ const ChampionAbility = ({ holder }) => {
         <div className='Champion-Ability'>
             <div className='Champion-Ability-Image-Header'>
                 <img
-                    src={process.env.PUBLIC_URL + `/assets/images/abilities/${holder.toLowerCase()}.webp`}
-                    onError={e => {
-                        e.target.src = `${ process.env.PUBLIC_URL + `/assets/images/abilities/${holder.replace(/ /g, '').toLowerCase()}.png`}`
-                    }}
+                    src={process.env.PUBLIC_URL + `/assets/images/abilities/${holder.toLowerCase()}.png`}
                     alt={name}
                 />
                 <h6> {name} {`(${type})`} </h6>

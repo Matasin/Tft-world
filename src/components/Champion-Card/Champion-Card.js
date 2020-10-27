@@ -26,10 +26,7 @@ const ChampionCard = ({ cost, name }) => {
                 <div className='Tool-Tip__Up'>
                     <div className='Tool-Tip__Champion'>
                         <img
-                            src={process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.webp`}
-                            onError={e => {
-                                e.target.src = `${process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}`
-                            }}
+                            src={process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}
                             alt={name}
                             className={`Cost${cost}`}
                         />
@@ -66,10 +63,7 @@ const ChampionCard = ({ cost, name }) => {
             </div>
 
             <img
-                src={process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.webp`}
-                onError={e => {
-                    e.target.src = `${process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}`
-                }}
+                src={process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}
                 alt={name}
                 className={`Cost${cost}`}
             />

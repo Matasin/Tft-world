@@ -23,7 +23,7 @@ const ItemCard = ({ image, imageOnError, itemId }) => {
                 <p> {description} </p>
             </div>
             <img
-                src={process.env.PUBLIC_URL + `/assets/images/items/${image}.webp`}
+                src={process.env.PUBLIC_URL + `/assets/images/items/${image}.png`}
                 onError={e => {
                     ItemsJson.filter(item => item.id === parseFloat(itemId.toString().split('').reverse().join('')) * Math.sign(itemId) && setItem(item));
                     e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${imageOnError}.png`}`

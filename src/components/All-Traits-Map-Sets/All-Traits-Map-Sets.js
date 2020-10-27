@@ -13,18 +13,12 @@ const AllTraitsMapSets = ({ sets, image }) => {
                         >
                             <div className='Trait-Set-Image'>
                                 <img 
-                                    src= {process.env.PUBLIC_URL + `/assets/images/traits/${style}.webp`} 
+                                    src= {process.env.PUBLIC_URL + `/assets/images/traits/${style}.png`} 
                                     alt={style}
-                                    onError={e => {
-                                        e.target.src = `${process.env.PUBLIC_URL + `/assets/images/traits/${style}.png`}`
-                                    }}
                                 />
                                 <img 
                                     src= {process.env.PUBLIC_URL + `/assets/images/traits/${image.toLowerCase()}.svg`} 
                                     alt={image}
-                                    onError={e => {
-                                        e.target.src = `${process.env.PUBLIC_URL + `/assets/images/traits/${image}.png`}`
-                                    }}
                                 />
                             </div>
                             <p>{style}</p>
