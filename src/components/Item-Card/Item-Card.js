@@ -14,7 +14,7 @@ const ItemCard = ({ image, imageOnError, itemId }) => {
     const { name, stats, description } = item;
 
     useEffect(() => {
-        ItemsJson.filter(item => item.id === itemId && setItem(item));
+        ItemsJson.find(item => item.id === itemId && setItem(item));
     })
     return (
         <div className='Item-Card'>
@@ -26,7 +26,7 @@ const ItemCard = ({ image, imageOnError, itemId }) => {
             <LazyImage
                 src={process.env.PUBLIC_URL + `/assets/images/items/${image}.png`}
                 onError={e => {
-                    ItemsJson.filter(item => item.id === parseFloat(itemId.toString().split('').reverse().join('')) * Math.sign(itemId) && setItem(item));
+                    ItemsJson.find(item => item.id === parseFloat(itemId.toString().split('').reverse().join('')) * Math.sign(itemId) && setItem(item));
                     e.target.src = `${process.env.PUBLIC_URL + `/assets/images/items/${imageOnError}.png`}`
                 }}
                 alt={name}

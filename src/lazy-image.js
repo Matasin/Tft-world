@@ -20,7 +20,7 @@ export class LazyImage extends React.Component {
 
     // Just render the image with data-src
     render() {
-        const { alt, className, src, width, height } = this.props;
+        const { alt, className, src, width, height, onError } = this.props;
         return (
             <img
                 alt={alt}
@@ -29,6 +29,7 @@ export class LazyImage extends React.Component {
                 src={src}
                 width={width}
                 height={height}
+                onError={onError}
             />
         );
     }

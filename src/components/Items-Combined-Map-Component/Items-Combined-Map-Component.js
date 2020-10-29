@@ -21,7 +21,6 @@ const ItemsCombinedMapComponent = ({ ItemsJson, itemId }) => {
                             <ItemCard
                                 itemId={itemId}
                                 image={`0${firstItem}`}
-                                imageOnError={`0${firstItem}`}
                             />
                         </li>
 
@@ -31,7 +30,6 @@ const ItemsCombinedMapComponent = ({ ItemsJson, itemId }) => {
                             <ItemCard
                                 itemId={id}
                                 image={secondItem}
-                                imageOnError={secondItem}
                             />
                         </li>
 
