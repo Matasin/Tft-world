@@ -4,6 +4,7 @@ import './Champion-Card.css'
 import { Link } from 'react-router-dom'
 import TraitCard from '../Trait-Card/Trait-Card'
 import ItemCard from '../Item-Card/Item-Card'
+import LazyImage from '../../lazy-image'
 
 import ChampionsJson from '../../context/apiContext/champions.json'
 
@@ -12,7 +13,7 @@ const ChampionCard = ({ cost, name }) => {
 
     const [items, setItems] = useState([]);
     useEffect(() => {
-        ChampionsJson.filter(champion => champion.name === name && setItems(champion.recommended_items));
+        ChampionsJson.find(champion => champion.name === name && setItems(champion.recommended_items));
     })
 
     return (
@@ -25,7 +26,7 @@ const ChampionCard = ({ cost, name }) => {
 
                 <div className='Tool-Tip__Up'>
                     <div className='Tool-Tip__Champion'>
-                        <img
+                        <LazyImage
                             src={process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}
                             alt={name}
                             className={`Cost${cost}`}
@@ -38,7 +39,7 @@ const ChampionCard = ({ cost, name }) => {
                         />
                     </div>
                     <div className='Tool-Tip__Cost'>
-                        <img
+                        <LazyImage
                             src={process.env.PUBLIC_URL + `/assets/images/content/icon-gold.svg`}
                             alt=''
                         />
@@ -62,12 +63,11 @@ const ChampionCard = ({ cost, name }) => {
                 </div>
             </div>
 
-            <img
+            <LazyImage
                 src={process.env.PUBLIC_URL + `/assets/images/champions/TFT4_${image}.png`}
                 alt={name}
                 className={`Cost${cost}`}
             />
-
             <p>{name}</p>
         </Link>
     );

@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './Trait-Card.css'
 
 import ChampionsJson from '../../context/apiContext/champions.json'
+import LazyImage from '../../lazy-image'
 
 const TraitCard = ({ name }) => {
     const [traits, setTraits] = useState([]);
 
     useEffect(() => {
-        ChampionsJson.filter(champion => champion.name === name && setTraits(champion.traits));
+        ChampionsJson.find(champion => champion.name === name && setTraits(champion.traits));
     })
     return (
         traits.map((trait, index) => {
@@ -16,7 +17,7 @@ const TraitCard = ({ name }) => {
                     key={index}
                     className='Trait-Card'
                 >
-                    <img
+                    <LazyImage
                         src={process.env.PUBLIC_URL + `/assets/images/traits/${trait.toLowerCase()}.svg`}
                         alt={trait}
                     />

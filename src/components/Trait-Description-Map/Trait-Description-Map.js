@@ -2,6 +2,7 @@ import React from 'react';
 import './Trait-Description-Map.css'
 
 import TraitsChampions from '../../context/apiContext/traits.json'
+import LazyImage from '../../lazy-image'
 
 const TraitDescriptionMap = ( { targetTraits } ) => {
     return (
@@ -12,7 +13,7 @@ const TraitDescriptionMap = ( { targetTraits } ) => {
                         targetTrait === name &&
                             <div className='Trait-Description' key= { key }> 
                                 <div className='Trait-Description-Image-Header'>
-                                    <img 
+                                    <LazyImage 
                                         src= {process.env.PUBLIC_URL + `/assets/images/traits/${name.toLowerCase()}.svg`} 
                                         alt={name}
                                     />

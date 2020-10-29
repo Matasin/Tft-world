@@ -1,11 +1,13 @@
 import React from 'react';
 import ChampionCard from '../../components/Champion-Card/Champion-Card'
+import LazyImage from '../../lazy-image'
+
 
 const SynergyMap = ({ JsonChampions, targetName, targetTrait }) => {
     return (
         <div className='Champion-Detail-Right-Down-Synergy'>
             <div className='Champion-Detail-Right-Down-Synergy-Trait-Image'>
-                <img
+                <LazyImage
                     src={process.env.PUBLIC_URL + `/assets/images/traits/${targetTrait.toLowerCase()}.svg`}
                     alt={targetTrait}
                 />

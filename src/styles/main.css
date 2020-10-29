@@ -4,3 +4,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+.lazy {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all .55s ease;
+}
+.loaded {
+    opacity: 1;
+    transform: scale(1);
+}

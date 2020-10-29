@@ -1,5 +1,6 @@
 import React from 'react';
 import './All-Traits-Map-Sets.css'
+import LazyImage from '../../lazy-image'
 
 const AllTraitsMapSets = ({ sets, image }) => {
     return (
@@ -12,11 +13,11 @@ const AllTraitsMapSets = ({ sets, image }) => {
                             className='Trait-Set'
                         >
                             <div className='Trait-Set-Image'>
-                                <img 
+                                <LazyImage 
                                     src= {process.env.PUBLIC_URL + `/assets/images/traits/${style}.png`} 
                                     alt={style}
                                 />
-                                <img 
+                                <LazyImage 
                                     src= {process.env.PUBLIC_URL + `/assets/images/traits/${image.toLowerCase()}.svg`} 
                                     alt={image}
                                 />
